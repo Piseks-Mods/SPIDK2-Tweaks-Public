@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " h ",
+    "ddd",
+    "ppp"
+  ],
+  "key": {
+    "h": {
+      "item": "immersiveengineering:drillhead_steel"
+    },
+    "d": {
+      "tag": "forge:dyes/blue"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:blueprint",
+    "nbt": {
+      "blueprint": "miners"
+    }
+  }
+}

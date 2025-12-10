@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:enchanted_paper"
+    },
+    "1": {
+      "item": "piseks_spidk_ii_tweaks:chromatic_ingot"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:chromatic_ingot"
+    },
+    "3": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "4": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "5": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "6": {
+      "item": "minecraft:spruce_slab"
+    },
+    "7": {
+      "item": "minecraft:anvil"
+    },
+    "8": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:advanced_crafting_table",
+    "count": 1
+  }
+}

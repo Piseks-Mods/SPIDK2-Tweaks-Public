@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "miner_plate",
+        "2": "iron_block",
+        "3": "oak_planks",
+        "5": "anvil",
+        "6": "miner_tier_b"
+      },
+      "name": "default"
+    },
+    "mk1": {
+      "map": {
+        "1": "miner_plate",
+        "2": "iron_block",
+        "3": "oak_planks",
+        "5": "anvil",
+        "6": "miner_tier_a"
+      },
+      "name": "mk1"
+    },
+    "mk3": {
+      "map": {
+        "1": "miner_plate",
+        "2": "iron_block",
+        "3": "oak_planks",
+        "5": "anvil",
+        "6": "miner_tier_c"
+      },
+      "name": "mk3"
+    },
+    "mk4": {
+      "map": {
+        "1": "miner_plate",
+        "2": "iron_block",
+        "3": "oak_planks",
+        "5": "anvil",
+        "6": "miner_tier_d"
+      },
+      "name": "mk4"
+    }
+  }
+}

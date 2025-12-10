@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Chicken Wings Slow Fall duration",
+    "description": "Duration of the effect in seconds",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 10
+  }
+}

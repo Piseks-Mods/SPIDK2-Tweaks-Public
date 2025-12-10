@@ -1,0 +1,199 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    64,
+    64
+  ],
+  "elements": [
+    {
+      "name": "Right Arm",
+      "from": [
+        12,
+        12,
+        6
+      ],
+      "to": [
+        16,
+        24,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          14,
+          18,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            5,
+            12,
+            8
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            10,
+            5,
+            11,
+            8
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            13,
+            5,
+            14,
+            8
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            12,
+            5,
+            13,
+            8
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            12,
+            5,
+            11,
+            4
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            13,
+            4,
+            12,
+            5
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -6.5,
+        -2,
+        -4.5
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        6.5,
+        -2,
+        -4.5
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        115,
+        0,
+        0
+      ],
+      "translation": [
+        -8.5,
+        6.5,
+        -4.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        115,
+        0,
+        0
+      ],
+      "translation": [
+        8.5,
+        6.5,
+        -4.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        -6.25,
+        0,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -30,
+        -45
+      ],
+      "translation": [
+        -10.25,
+        -1,
+        0
+      ]
+    },
+    "head": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -5.5,
+        8.5,
+        -10
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -6,
+        -10,
+        0
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "RightArm",
+      "origin": [
+        13,
+        22,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5768 @@
+{
+  "mod_elements": [
+    {
+      "name": "Umbrella",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbrella",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/piseks_spidk_ii/models/item/umbrella.json",
+          "src/main/java/cz/pisekpiskovec/spidktweaks/item/UmbrellaItem.java"
+        ]
+      },
+      "path": "~/Acid Rain"
+    },
+    {
+      "name": "UmbrellaCraft",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umbrella_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/piseks_spidk_ii/recipes/umbrella.json"
+        ]
+      },
+      "path": "~/Acid Rain"
+    },
+    {
+      "name": "HealingRune",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_rune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/piseks_spidk_ii/models/block/healing_rune.json",
+          "src/main/resources/assets/piseks_spidk_ii/blockstates/healing_rune.json",
+          "src/main/java/cz/pisekpiskovec/spidktweaks/block/HealingRuneBlock.java",
+          "src/main/resources/assets/piseks_spidk_ii/models/item/healing_rune.json"
+        ]
+      },
+      "path": "~/Soul Resonator"
+    },
+    {
+      "name": "Jerky",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jerky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/piseks_spidk_ii/models/item/jerky.json",
+          "src/main/java/cz/pisekpiskovec/spidktweaks/item/JerkyItem.java"
+        ]
+      },
+      "path": "~/Jerky"
+    },
+    {
+      "name": "JerkyFire",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jerky_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/piseks_spidk_ii/recipes/jerky.json"
+        ]
+      },
+      "path": "~/Jerky"
+    },
+    {
+      "name": "AcidRain",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_rain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Acid Rain"
+    },
+    {
+      "name": "SquidJetLaunch",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_jet_launch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Squid Jet"
+    },
+    {
+      "name": "SquidJet",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_jet",
+      "path": "~/Squid Jet"
+    },
+    {
+      "name": "SquidJetCraft",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_jet_craft",
+      "path": "~/Squid Jet"
+    },
+    {
+      "name": "ChickenWings",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_wings",
+      "path": "~/Chicken Wings"
+    },
+    {
+      "name": "ChickenWingsFall",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_wings_fall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chicken Wings"
+    },
+    {
+      "name": "ChickenWingsCraft",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_wings_craft",
+      "path": "~/Chicken Wings"
+    },
+    {
+      "name": "ChickenWingsCraftLegacy",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_wings_craft_legacy",
+      "path": "~/Chicken Wings"
+    },
+    {
+      "name": "SquidJetCraftLegacy",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_jet_craft_legacy",
+      "path": "~/Squid Jet"
+    },
+    {
+      "name": "GravityOrb",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb",
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbGlow",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbActivation",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_activation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbFly",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_fly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbDrop",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_drop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbCraft",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_craft",
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "GravityOrbCraftLegacy",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_orb_craft_legacy",
+      "path": "~/Gravity Orb"
+    },
+    {
+      "name": "RingOfFortune",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_fortune",
+      "path": "~/Ring"
+    },
+    {
+      "name": "RingOfFortuneEffect",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_fortune_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Ring"
+    },
+    {
+      "name": "RingOfFortuneCraft",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_fortune_craft",
+      "path": "~/Ring"
+    },
+    {
+      "name": "Wooden",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "WoodenHelmetCraft",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_helmet_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "WoodenChestplateCraft",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_chestplate_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "WoodenLeggingsCraft",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_leggings_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "WoodenBootsCraft",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_boots_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "Leaf",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "LeafArmorEffect",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_armor_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "LeafHelmetCraft",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_helmet_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "LeafChestplateCraft",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_chestplate_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "LeafLeggingsCraft",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_leggings_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "LeafBootsCraft",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaf_boots_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "PolishedBedrock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bedrock",
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "RingOfNull",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_null",
+      "path": "~/Ring"
+    },
+    {
+      "name": "RingOfNullSpell",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_null_spell",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ring"
+    },
+    {
+      "name": "RingOfNullGlow",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_null_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Ring"
+    },
+    {
+      "name": "RingOfNullCraft",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_null_craft",
+      "path": "~/Ring"
+    },
+    {
+      "name": "DayOverlap",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_overlap",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "GetDay",
+      "type": "command",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_day",
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "GetDayProcedure",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_day_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "ResetDayProcedure",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_day_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "CookedCeramicBrick",
+      "type": "rangeditem",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_ceramic_brick",
+      "path": "~/Cooked Ceramic Brick"
+    },
+    {
+      "name": "CookedCeramicBrickSmelt",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_ceramic_brick_smelt",
+      "path": "~/Cooked Ceramic Brick"
+    },
+    {
+      "name": "Watch",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watch",
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "WatchTime",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watch_time",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "WatchCraft",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watch_craft",
+      "path": "~/Day Overlap"
+    },
+    {
+      "name": "BellCraft",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell_craft",
+      "path": "~/Bell"
+    },
+    {
+      "name": "Bell",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell",
+      "path": "~/Bell"
+    },
+    {
+      "name": "BellBlockCraft",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell_block_craft",
+      "path": "~/Bell"
+    },
+    {
+      "name": "BellBlockCraftAlt",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell_block_craft_alt",
+      "path": "~/Bell"
+    },
+    {
+      "name": "BellRing",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bell_ring",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bell"
+    },
+    {
+      "name": "ClocktowerWall",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_wall",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerRing",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_ring",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerVault",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_vault",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerVaultLoot",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_vault_loot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "Pen",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen",
+      "path": "~/Pen"
+    },
+    {
+      "name": "BlackDyeTag",
+      "type": "tag",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_dye_tag",
+      "path": "~/Pen"
+    },
+    {
+      "name": "RelocationNotSupportedTag",
+      "type": "tag",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relocation_not_supported_tag",
+      "path": "~/Tags/Forge"
+    },
+    {
+      "name": "PenCraft",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pen_craft",
+      "path": "~/Pen"
+    },
+    {
+      "name": "Computer",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer",
+      "path": "~/Computer"
+    },
+    {
+      "name": "ComputerCraft",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_craft",
+      "path": "~/Computer"
+    },
+    {
+      "name": "PolishedBedrockCraft",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bedrock_craft",
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "InfiniburnEndTag",
+      "type": "tag",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_end_tag",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "InfiniburnNetherTag",
+      "type": "tag",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_nether_tag",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "InfiniburnOverworldTag",
+      "type": "tag",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infiniburn_overworld_tag",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "ClocktowerVaultRestock",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_vault_restock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "DreamyWaters",
+      "type": "biome",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dreamy_waters",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerBig",
+      "type": "structure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_big",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerGrave",
+      "type": "structure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_grave",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerMedium",
+      "type": "structure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_medium",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerRuin",
+      "type": "structure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_ruin",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "ClocktowerSmall",
+      "type": "structure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clocktower_small",
+      "path": "~/Clocktowers"
+    },
+    {
+      "name": "VariablesCommand",
+      "type": "command",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "variables_command",
+      "path": "~/Variables Command"
+    },
+    {
+      "name": "VariablesNumber",
+      "type": "procedure",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "variables_number",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Variables Command"
+    },
+    {
+      "name": "VariablesList",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "variables_list",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Variables Command"
+    },
+    {
+      "name": "HealingBedProcedure",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_bed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Additions"
+    },
+    {
+      "name": "Synk",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synk",
+      "path": "~/Infinity Fluids/Water"
+    },
+    {
+      "name": "SynkFill",
+      "type": "procedure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synk_fill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Infinity Fluids/Water"
+    },
+    {
+      "name": "SynkFillBucket",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synk_fill_bucket",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Infinity Fluids/Water"
+    },
+    {
+      "name": "Ryse",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryse",
+      "path": "~/Infinity Fluids/Lava"
+    },
+    {
+      "name": "RyseFill",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryse_fill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Infinity Fluids/Lava"
+    },
+    {
+      "name": "RyseFillBucket",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ryse_fill_bucket",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Infinity Fluids/Lava"
+    },
+    {
+      "name": "RyseCraft",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ryse_craft",
+      "path": "~/Infinity Fluids/Lava"
+    },
+    {
+      "name": "CraftUmbrella",
+      "type": "achievement",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_umbrella",
+      "path": "~/Acid Rain"
+    },
+    {
+      "name": "SmeltJerky",
+      "type": "achievement",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_jerky",
+      "path": "~/Jerky"
+    },
+    {
+      "name": "SquidLaunch",
+      "type": "achievement",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_launch",
+      "path": "~/Squid Jet"
+    },
+    {
+      "name": "FlyMyWings",
+      "type": "achievement",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_my_wings",
+      "path": "~/Chicken Wings"
+    },
+    {
+      "name": "PlasticMemories",
+      "type": "achievement",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_memories",
+      "path": "~/Ring"
+    },
+    {
+      "name": "ByMistake",
+      "type": "achievement",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "by_mistake",
+      "path": "~/Cooked Ceramic Brick"
+    },
+    {
+      "name": "DecayedPodzol",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_podzol",
+      "path": "~/Decayed Podzol"
+    },
+    {
+      "name": "DecayedPodzolSpawn",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_podzol_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Decayed Podzol"
+    },
+    {
+      "name": "DecayedPodzolCraft",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decayed_podzol_craft",
+      "path": "~/Decayed Podzol"
+    },
+    {
+      "name": "PunchCard",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punch_card",
+      "path": "~/Punch Card"
+    },
+    {
+      "name": "PunchCardConsumed",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "punch_card_consumed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Punch Card"
+    },
+    {
+      "name": "EnableAcidRain",
+      "type": "gamerule",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enableAcidRain",
+      "metadata": {
+        "type": "logic"
+      },
+      "path": "~/Game Rules/Acid Rain"
+    },
+    {
+      "name": "IsUmbrellaInHandNeeded",
+      "type": "gamerule",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isUmbrellaInHandNeeded",
+      "metadata": {
+        "type": "logic"
+      },
+      "path": "~/Game Rules/Acid Rain"
+    },
+    {
+      "name": "HealingRuneEffectStrenght",
+      "type": "gamerule",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healingRuneEffectStrenght",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules"
+    },
+    {
+      "name": "SquidJetVelocity",
+      "type": "gamerule",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squidJetVelocity",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules/Squid Jet"
+    },
+    {
+      "name": "SquidJetCooldown",
+      "type": "gamerule",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squidJetCooldown",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules/Squid Jet"
+    },
+    {
+      "name": "ChickenWingsEffectDuration",
+      "type": "gamerule",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenWingsEffectDuration",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules"
+    },
+    {
+      "name": "CompressedNetherite",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "CompressedNetheriteBlendCraft",
+      "type": "recipe",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_blend_craft",
+      "path": "~/Compressed Netherite"
+    },
+    {
+      "name": "CompressedNetheriteBlock",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_block",
+      "path": "~/Compressed Netherite"
+    },
+    {
+      "name": "CompressedNetheriteBlockCraft",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_block_craft",
+      "path": "~/Compressed Netherite"
+    },
+    {
+      "name": "CompressedNetheriteHelmetCraft",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_helmet_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "CompressedNetheriteChestplateCraft",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_chestplate_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "CompressedNetheriteLeggingsCraft",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_leggings_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "CompressedNetheriteBootsCraft",
+      "type": "recipe",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_netherite_boots_craft",
+      "path": "~/Armor"
+    },
+    {
+      "name": "CompressedNetheriteBlend",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "compressed_netherite_blend",
+      "path": "~/Compressed Netherite"
+    },
+    {
+      "name": "EnchantedPaper",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_paper",
+      "path": "~/Punch Card"
+    },
+    {
+      "name": "EnchantedPaperConsume",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_paper_consume",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Punch Card"
+    },
+    {
+      "name": "BlockBroken",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_broken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "PlumJam",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plum_jam",
+      "path": "~/Povidla"
+    },
+    {
+      "name": "PlumJamTrade",
+      "type": "villagertrade",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plum_jam_trade",
+      "path": "~/Povidla"
+    },
+    {
+      "name": "Toilet",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet",
+      "path": "~/Toilet"
+    },
+    {
+      "name": "ToiletPoop",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet_poop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Toilet"
+    },
+    {
+      "name": "ToiletCraft",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toilet_craft",
+      "path": "~/Toilet"
+    },
+    {
+      "name": "Poo",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo",
+      "path": "~/Toilet"
+    },
+    {
+      "name": "PooPing",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poo_ping",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Toilet"
+    },
+    {
+      "name": "BrownDyeTag",
+      "type": "tag",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_dye_tag",
+      "path": "~/Tags/Forge/dyes"
+    },
+    {
+      "name": "ChromaticIngot",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromatic_ingot",
+      "path": "~/Chromatic Metal"
+    },
+    {
+      "name": "FissureLeadingOutside",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fissure_leading_outside",
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "FissureLeadingOutsidePort",
+      "type": "procedure",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fissure_leading_outside_port",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Bedrock"
+    },
+    {
+      "name": "BruteScrapping",
+      "type": "procedure",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brute_scrapping",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Additions"
+    },
+    {
+      "name": "ZinkovanejPlech",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinkovanej_plech",
+      "path": "~/Chromatic Metal"
+    },
+    {
+      "name": "ZinkovanejPlechRing",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinkovanej_plech_ring",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chromatic Metal"
+    },
+    {
+      "name": "EntityKilled",
+      "type": "procedure",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_killed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "Hand",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand",
+      "path": "~/Hand Knife"
+    },
+    {
+      "name": "HandKnife",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_knife",
+      "path": "~/Hand Knife"
+    },
+    {
+      "name": "HandKnifeSmith",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_knife_smith",
+      "path": "~/Hand Knife"
+    },
+    {
+      "name": "Pee",
+      "type": "livingentity",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pee",
+      "path": "~/Pee"
+    },
+    {
+      "name": "AdvancedCraftingTable",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_table",
+      "path": "~/Advanced Crafting"
+    },
+    {
+      "name": "AdvancedCraftingGrid",
+      "type": "gui",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_grid",
+      "path": "~/Advanced Crafting"
+    },
+    {
+      "name": "EnrichedSoulSoil",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enriched_soul_soil",
+      "path": "~/Enriched Soul Soil"
+    },
+    {
+      "name": "Pride",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pride",
+      "path": "~/Pride"
+    },
+    {
+      "name": "PrideAbility",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pride_ability",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pride"
+    },
+    {
+      "name": "SingularityK",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularity_helapoiesis",
+      "path": "~/Singularities/Ks Singularity"
+    },
+    {
+      "name": "SingularityJ",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularity_wishpower",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "Lock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "LockGUI",
+      "type": "gui",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock_gui",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "BlockPlaced",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_placed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "LockOpen",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "HealingRuneCraft",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_rune_craft",
+      "path": "~/Singularities/Ks Singularity"
+    },
+    {
+      "name": "LockCraft",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lock_craft",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "Helapoiesis",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helapoiesis",
+      "path": "~/Singularities/Ks Singularity"
+    },
+    {
+      "name": "HelapoiesisHeal",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helapoiesis_heal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Singularities/Ks Singularity"
+    },
+    {
+      "name": "HelapoiesisCraft",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helapoiesis_craft",
+      "path": "~/Singularities/Ks Singularity"
+    },
+    {
+      "name": "Owl",
+      "type": "livingentity",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owl",
+      "path": "~/Owl"
+    },
+    {
+      "name": "HealingBedHeal",
+      "type": "gamerule",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healingBedHeal",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules/Healing Bed"
+    },
+    {
+      "name": "HealingBedBonusDivider",
+      "type": "gamerule",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healingBedBonusDivider",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules/Healing Bed"
+    },
+    {
+      "name": "HealingBedHunger",
+      "type": "gamerule",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healingBedHunger",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules/Healing Bed"
+    },
+    {
+      "name": "StrippedLogs",
+      "type": "tag",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_logs",
+      "path": "~/Tags/SPIDK 2 Tweaks/logs"
+    },
+    {
+      "name": "StrippedLogsItem",
+      "type": "tag",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_logs_item",
+      "path": "~/Tags/SPIDK 2 Tweaks/logs"
+    },
+    {
+      "name": "StrippedStemsBlock",
+      "type": "tag",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_stems_block",
+      "path": "~/Tags/SPIDK 2 Tweaks/stems"
+    },
+    {
+      "name": "StrippedStemsItem",
+      "type": "tag",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_stems_item",
+      "path": "~/Tags/SPIDK 2 Tweaks/stems"
+    },
+    {
+      "name": "TerracottaBlock",
+      "type": "tag",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracotta_block",
+      "path": "~/Tags/SPIDK 2 Tweaks"
+    },
+    {
+      "name": "TerracottaItem",
+      "type": "tag",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "terracotta_item",
+      "path": "~/Tags/SPIDK 2 Tweaks"
+    },
+    {
+      "name": "SynkCraft",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "synk_craft",
+      "path": "~/Infinity Fluids/Water"
+    },
+    {
+      "name": "PureIronOre",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_iron_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureGoldOre",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_gold_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureOsmiumOre",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_osmium_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureCopperOre",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_copper_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureOres",
+      "type": "tag",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_ores",
+      "path": "~/Tags/SPIDK 2 Tweaks/ore"
+    },
+    {
+      "name": "MinerEmpty",
+      "type": "procedure",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_empty",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMine",
+      "type": "procedure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk1",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_1",
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk2",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_2",
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk2Cost",
+      "type": "procedure",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_2_cost",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk3",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_3",
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk3Cost",
+      "type": "procedure",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_3_cost",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk4",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_4",
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "MinerMk4Cost",
+      "type": "procedure",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_mk_4_cost",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "HamsterBrown",
+      "type": "livingentity",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_brown",
+      "path": "~/Hamster/Entity"
+    },
+    {
+      "name": "HamsterGinger",
+      "type": "livingentity",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_ginger",
+      "path": "~/Hamster/Entity"
+    },
+    {
+      "name": "HamsterWhite",
+      "type": "livingentity",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_white",
+      "path": "~/Hamster/Entity"
+    },
+    {
+      "name": "HamsterYellow",
+      "type": "livingentity",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_yellow",
+      "path": "~/Hamster/Entity"
+    },
+    {
+      "name": "HelixShelf",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "helix_shelf",
+      "path": "~/Punch Card"
+    },
+    {
+      "name": "MinerValidPlacement",
+      "type": "procedure",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Purities/Miners"
+    },
+    {
+      "name": "EmberwoodStem",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stem",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodPlanks",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_planks",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodTrapdoor",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_trapdoor",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodStairs",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stairs",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodSlab",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_slab",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodFence",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_fence",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodFenceGate",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_fence_gate",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodPressurePlate",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_pressure_plate",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodButton",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_button",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodHyphae",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_hyphae",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodStemValidGeneration",
+      "type": "tag",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stem_valid_generation",
+      "path": "~/Tags/SPIDK 2 Tweaks"
+    },
+    {
+      "name": "EmberwoodStemGeneration",
+      "type": "procedure",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stem_generation",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodPlanksCraft",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "emberwood_planks_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_trapdoor_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodStairsCraft",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stairs_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodSlabCraft",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_slab_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodFenceCraft",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_fence_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodFenceGateCraft",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_fence_gate_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_pressure_plate_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodButtonCraft",
+      "type": "recipe",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_button_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodHyphaeCraft",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_hyphae_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "Star",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star",
+      "path": "~/Additions"
+    },
+    {
+      "name": "StarCraft",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_craft",
+      "path": "~/Additions"
+    },
+    {
+      "name": "BrownHamster",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_hamster",
+      "path": "~/Hamster/Item"
+    },
+    {
+      "name": "GingerHamster",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ginger_hamster",
+      "path": "~/Hamster/Item"
+    },
+    {
+      "name": "WhiteHamster",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_hamster",
+      "path": "~/Hamster/Item"
+    },
+    {
+      "name": "YellowHamster",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hamster",
+      "path": "~/Hamster/Item"
+    },
+    {
+      "name": "HamsterBrownPickUp",
+      "type": "procedure",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_brown_pick_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "HamsterGinderPickUp",
+      "type": "procedure",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_ginder_pick_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "HamsterWhitePickUp",
+      "type": "procedure",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_white_pick_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "HamsterYellowPickUp",
+      "type": "procedure",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_yellow_pick_up",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "BrownHamsterRelease",
+      "type": "procedure",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_hamster_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "GingerHamsterRelease",
+      "type": "procedure",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ginger_hamster_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "WhiteHamsterRelease",
+      "type": "procedure",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_hamster_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "YellowHamsterRelease",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hamster_release",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "HamsterWheel",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_wheel",
+      "path": "~/Hamster"
+    },
+    {
+      "name": "HamsterWheelGenerate",
+      "type": "procedure",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_wheel_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hamster/Procedures"
+    },
+    {
+      "name": "HamsterWheelGeneration",
+      "type": "gamerule",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamsterWheelGeneration",
+      "metadata": {
+        "type": "number"
+      },
+      "path": "~/Game Rules"
+    },
+    {
+      "name": "HamsterWheelCraft",
+      "type": "recipe",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_wheel_craft",
+      "path": "~/Hamster"
+    },
+    {
+      "name": "HamsterBrownLoot",
+      "type": "loottable",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamster_brown_loot",
+      "path": "~/Hamster"
+    },
+    {
+      "name": "GrassCarpet",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_carpet",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "GrassCarpetCraft",
+      "type": "recipe",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_carpet_craft",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "CrimsonRootsCarpet",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_roots_carpet",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "CrimsonRootsCarpetCraft",
+      "type": "recipe",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_roots_carpet_craft",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "WarpedRootsCarpet",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_roots_carpet",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "WarpedRootsCarpetCraft",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_roots_carpet_craft",
+      "path": "~/Carpet"
+    },
+    {
+      "name": "CarpetValidPlacement",
+      "type": "procedure",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carpet_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Carpet"
+    },
+    {
+      "name": "WishpowerTattoo",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wishpower_tattoo",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "WishpowerEffect",
+      "type": "procedure",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wishpower_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "WishpowerTattooCraft",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wishpower_tattoo_craft",
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "SingularityJUnlock",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singularity_j_unlock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Singularities/Js Singularity"
+    },
+    {
+      "name": "PureNetherQuartzOre",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_nether_quartz_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureDiamondOre",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_diamond_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "PureEmeraldOre",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_emerald_ore",
+      "path": "~/Purities/Ores"
+    },
+    {
+      "name": "OresItem",
+      "type": "tag",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ores_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresBlock",
+      "type": "tag",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ores_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresIronItem",
+      "type": "tag",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_iron_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresIronBlock",
+      "type": "tag",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_iron_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "GoldOresItem",
+      "type": "tag",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gold_ores_item",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "GoldOresBlock",
+      "type": "tag",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_ores_block",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "GuardedByPiglins",
+      "type": "tag",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guarded_by_piglins",
+      "path": "~/Tags/Vanilla"
+    },
+    {
+      "name": "OresGoldItem",
+      "type": "tag",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_gold_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresGoldBlock",
+      "type": "tag",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_gold_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresOsmiumItem",
+      "type": "tag",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_osmium_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresOsmiumBlock",
+      "type": "tag",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_osmium_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresCopperItem",
+      "type": "tag",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ores_copper_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresCopperBlock",
+      "type": "tag",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ores_copper_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresQuartzItem",
+      "type": "tag",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_quartz_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresQuartzBlock",
+      "type": "tag",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_quartz_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresDiamondItem",
+      "type": "tag",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_diamond_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresDiamondBlock",
+      "type": "tag",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_diamond_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresEmeraldItem",
+      "type": "tag",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_emerald_item",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "OresEmeraldBlock",
+      "type": "tag",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_emerald_block",
+      "path": "~/Tags/Forge/ores"
+    },
+    {
+      "name": "BlockRightClicked",
+      "type": "procedure",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "EmberwoodDoor",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_door",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "StrippedEmberwoodStem",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_emberwood_stem",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "StrippedEmberwoodHyphae",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_emberwood_hyphae",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodSapling",
+      "type": "plant",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_sapling",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodStemDrop",
+      "type": "loottable",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_stem_drop",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodDoorCraft",
+      "type": "recipe",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_door_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "StrippedEmberwoodHyphaeCraft",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_emberwood_hyphae_craft",
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "EmberwoodSaplingGrow",
+      "type": "procedure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberwood_sapling_grow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Wood/Emberwood"
+    },
+    {
+      "name": "Embercore",
+      "type": "block",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embercore",
+      "path": "~/Embercore"
+    },
+    {
+      "name": "EmbercoreCraft",
+      "type": "recipe",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "embercore_craft",
+      "path": "~/Embercore"
+    },
+    {
+      "name": "SmoothEmbercore",
+      "type": "block",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_embercore",
+      "path": "~/Embercore"
+    },
+    {
+      "name": "SmoothEmbercoreSmelt",
+      "type": "recipe",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_embercore_smelt",
+      "path": "~/Embercore"
+    },
+    {
+      "name": "AdvancedCraftingGridTakeFromOutput",
+      "type": "procedure",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_grid_take_from_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting"
+    },
+    {
+      "name": "AdvancedCraftingTableRecipeManager",
+      "type": "procedure",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_table_recipe_manager",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting"
+    },
+    {
+      "name": "AdvancedCraftingMekanismCreativeEnergyCube",
+      "type": "procedure",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_mekanism_creative_energy_cube",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingRefinedStorageCreativePortableGrid",
+      "type": "procedure",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_refined_storage_creative_portable_grid",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingRefinedStorageCreativeController",
+      "type": "procedure",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_refined_storage_creative_controller",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingRefinedStorageCreativeWirelessGrid",
+      "type": "procedure",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_refined_storage_creative_wireless_grid",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingBotaniaManaTablet",
+      "type": "procedure",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_botania_mana_tablet",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingBotaniaTheEverlastingGuiltyPool",
+      "type": "procedure",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_botania_the_everlasting_guilty_pool",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingFissureLeadingOutside",
+      "type": "procedure",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_fissure_leading_outside",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingPride",
+      "type": "procedure",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_pride",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "AdvancedCraftingTconstructCreativeUpgrade",
+      "type": "procedure",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_tconstruct_creative_upgrade",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shapeless"
+    },
+    {
+      "name": "AdvancedCraftingTconstructCreativeDefenseSlot",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_tconstruct_creative_defense_slot",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shapeless"
+    },
+    {
+      "name": "AdvancedCraftingTconstructCreativeAbility",
+      "type": "procedure",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_tconstruct_creative_ability",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shapeless"
+    },
+    {
+      "name": "AdvancedCraftingTconstructCreativeSoulSlot",
+      "type": "procedure",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_tconstruct_creative_soul_slot",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shapeless"
+    },
+    {
+      "name": "AdvancedCraftingTableCraft",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_table_craft",
+      "path": "~/Advanced Crafting"
+    },
+    {
+      "name": "MoltenGlowGlass",
+      "type": "fluid",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_glow_glass",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Glow Glass"
+    },
+    {
+      "name": "GlowGlass",
+      "type": "block",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_glass",
+      "path": "~/Glow Glass"
+    },
+    {
+      "name": "PissBottle",
+      "type": "item",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piss_bottle",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteIngot",
+      "type": "item",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_ingot",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "AdvancedCraftingUrineatniteIngot",
+      "type": "procedure",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_urineatnite_ingot",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shapeless"
+    },
+    {
+      "name": "UrineatniteBlock",
+      "type": "block",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_block",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteBlockCraft",
+      "type": "recipe",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_block_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteAxe",
+      "type": "tool",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_axe",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteHoe",
+      "type": "tool",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_hoe",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatnitePickaxe",
+      "type": "tool",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_pickaxe",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteShovel",
+      "type": "tool",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_shovel",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteSword",
+      "type": "tool",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_sword",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteAxeCraft",
+      "type": "recipe",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_axe_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteHoeCraft",
+      "type": "recipe",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_hoe_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatnitePickaxeCraft",
+      "type": "recipe",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_pickaxe_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteShovelCraft",
+      "type": "recipe",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_shovel_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteSwordCraft",
+      "type": "recipe",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_sword_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteArmor",
+      "type": "armor",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteHelmetCraft",
+      "type": "recipe",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_helmet_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteChestplateCraft",
+      "type": "recipe",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_chestplate_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteLeggingsCraft",
+      "type": "recipe",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_leggings_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "UrineatniteBootsCraft",
+      "type": "recipe",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urineatnite_boots_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "StatusRupture",
+      "type": "procedure",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_rupture",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Status Effects/Keyword"
+    },
+    {
+      "name": "SpicebushBranch",
+      "type": "item",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch",
+      "path": "~/Spicebush"
+    },
+    {
+      "name": "SpicebushBranchChangePattern",
+      "type": "procedure",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_change_pattern",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Spicebush"
+    },
+    {
+      "name": "SpicebushBranchAttackScatteringFragrance",
+      "type": "procedure",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_scattering_fragrance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackPungentFragrance",
+      "type": "procedure",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_pungent_fragrance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackFloweringBuds",
+      "type": "procedure",
+      "sortid": 526,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_flowering_buds",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackLikeFlowersinFullBloom",
+      "type": "procedure",
+      "sortid": 527,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_like_flowersin_full_bloom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackMagnificentSpringBreeze",
+      "type": "procedure",
+      "sortid": 528,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_magnificent_spring_breeze",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackMustCoverWithDirt",
+      "type": "procedure",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_must_cover_with_dirt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackWitheringFlower",
+      "type": "procedure",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_withering_flower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "SpicebushBranchAttackCulminatingFragrance",
+      "type": "procedure",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spicebush_branch_attack_culminating_fragrance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Spicebush/Spicebush Branch Attack Patterns"
+    },
+    {
+      "name": "StatusBlooming",
+      "type": "procedure",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "status_blooming",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Status Effects"
+    },
+    {
+      "name": "Worldcaller",
+      "type": "item",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldcaller",
+      "path": "~/Additions"
+    },
+    {
+      "name": "WorldcallerPort",
+      "type": "procedure",
+      "sortid": 539,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldcaller_port",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Additions"
+    },
+    {
+      "name": "WorldcallerCraft",
+      "type": "recipe",
+      "sortid": 540,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worldcaller_craft",
+      "path": "~/Additions"
+    },
+    {
+      "name": "SoulResonator",
+      "type": "block",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_resonator",
+      "path": "~/Soul Resonator"
+    },
+    {
+      "name": "SoulResonatorResonate",
+      "type": "procedure",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_resonator_resonate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Soul Resonator"
+    },
+    {
+      "name": "CalculatingAttributeModifiers",
+      "type": "procedure",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calculating_attribute_modifiers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "Stagger",
+      "type": "potioneffect",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stagger",
+      "path": "~/Status Effects/Stagger"
+    },
+    {
+      "name": "StaggerApplied",
+      "type": "procedure",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stagger_applied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Status Effects/Stagger"
+    },
+    {
+      "name": "BeforeEntityIsHurt",
+      "type": "procedure",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "before_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "StaggerExpired",
+      "type": "procedure",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stagger_expired",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Status Effects/Stagger"
+    },
+    {
+      "name": "StaggerTick",
+      "type": "procedure",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stagger_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Status Effects/Stagger"
+    },
+    {
+      "name": "PlayerRightClicksOnEntity",
+      "type": "procedure",
+      "sortid": 551,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_right_clicks_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "PlayerRightClicksWithItem",
+      "type": "procedure",
+      "sortid": 552,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_right_clicks_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "PlayerUsesItem",
+      "type": "procedure",
+      "sortid": 553,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_uses_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Global Triggers"
+    },
+    {
+      "name": "Horsemeat",
+      "type": "item",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsemeat",
+      "path": "~/Horsemeat"
+    },
+    {
+      "name": "CookedHorsemeat",
+      "type": "item",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_horsemeat",
+      "path": "~/Horsemeat"
+    },
+    {
+      "name": "CookedHorsemeatSmelt",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_horsemeat_smelt",
+      "path": "~/Horsemeat"
+    },
+    {
+      "name": "CookedHorsemeatSmoke",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_horsemeat_smoke",
+      "path": "~/Horsemeat"
+    },
+    {
+      "name": "CookedHorsemeatCampfire",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_horsemeat_campfire",
+      "path": "~/Horsemeat"
+    },
+    {
+      "name": "Stig",
+      "type": "livingentity",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stig",
+      "path": "~/Stig"
+    },
+    {
+      "name": "PissBottleCraft",
+      "type": "recipe",
+      "sortid": 590,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piss_bottle_craft",
+      "path": "~/Urineatnite"
+    },
+    {
+      "name": "Gluttony",
+      "type": "tool",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluttony",
+      "path": "~/Gluttony"
+    },
+    {
+      "name": "GluttonyReplenishHunger",
+      "type": "procedure",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gluttony_replenish_hunger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gluttony"
+    },
+    {
+      "name": "AdvancedCraftingGluttony",
+      "type": "procedure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_crafting_gluttony",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Advanced Crafting/Recipes/Shaped"
+    },
+    {
+      "name": "LootContainerBlack",
+      "type": "block",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_black",
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "LootContainerBrown",
+      "type": "block",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_brown",
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "LootContainerBlue",
+      "type": "block",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_blue",
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "LootContainerGold",
+      "type": "block",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_gold",
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "BluePill",
+      "type": "item",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pill",
+      "path": "~/Power Ups/Common"
+    },
+    {
+      "name": "RedPill",
+      "type": "item",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pill",
+      "path": "~/Power Ups/Common"
+    },
+    {
+      "name": "Dumbbell",
+      "type": "item",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dumbbell",
+      "path": "~/Power Ups/Common"
+    },
+    {
+      "name": "Sneakers",
+      "type": "item",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sneakers",
+      "path": "~/Power Ups/Common"
+    },
+    {
+      "name": "OrangeJuice",
+      "type": "item",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_juice",
+      "path": "~/Power Ups/Common"
+    },
+    {
+      "name": "Juice",
+      "type": "item",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juice",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "DanisMilk",
+      "type": "item",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "danis_milk",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "JanniksFrog",
+      "type": "item",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "janniks_frog",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "PiggyBank",
+      "type": "item",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piggy_bank",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "Bulldozer",
+      "type": "item",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulldozer",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "Berserk",
+      "type": "item",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk",
+      "path": "~/Power Ups/Legendary"
+    },
+    {
+      "name": "CrackedVoid",
+      "type": "block",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_void",
+      "path": "~/Additions"
+    },
+    {
+      "name": "CrackedVoidSuck",
+      "type": "procedure",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_void_suck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Additions"
+    },
+    {
+      "name": "Dracula",
+      "type": "item",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dracula",
+      "path": "~/Power Ups/Rare"
+    },
+    {
+      "name": "BerserkValueUpdate",
+      "type": "procedure",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_value_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Power Ups/Legendary"
+    },
+    {
+      "name": "LootContainerBlackOpen",
+      "type": "procedure",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_black_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "TreasuerHunter",
+      "type": "achievement",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasuer_hunter",
+      "path": "~/Power Ups"
+    },
+    {
+      "name": "LootContainerBrownOpen",
+      "type": "procedure",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_brown_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "LootContainerBlueOpen",
+      "type": "procedure",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_blue_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "LootContainerGoldOpen",
+      "type": "procedure",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_container_gold_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Power Ups/Loot Containers"
+    },
+    {
+      "name": "CrackedVoidCraft",
+      "type": "recipe",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_void_craft",
+      "path": "~/Additions"
+    },
+    {
+      "name": "RedstoneCircuit",
+      "type": "item",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_circuit",
+      "path": "~/Additions"
+    },
+    {
+      "name": "RedstoneCircuitCraft",
+      "type": "recipe",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_circuit_craft",
+      "path": "~/Additions"
+    },
+    {
+      "name": "RepeaterCircuit",
+      "type": "recipe",
+      "sortid": 627,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repeater_circuit",
+      "path": "~/Additions"
+    },
+    {
+      "name": "RedstoneRandomizerCircuit",
+      "type": "recipe",
+      "sortid": 628,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "redstone_randomizer_circuit",
+      "path": "~/Additions"
+    },
+    {
+      "name": "ComparatorCircuit",
+      "type": "recipe",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comparator_circuit",
+      "path": "~/Additions"
+    },
+    {
+      "name": "ShardCoal",
+      "type": "item",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_coal",
+      "path": "~/Ore Multiplication/Coal"
+    },
+    {
+      "name": "ClumpCoal",
+      "type": "item",
+      "sortid": 643,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clump_coal",
+      "path": "~/Ore Multiplication/Coal"
+    },
+    {
+      "name": "ShardAluminum",
+      "type": "item",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shard_aluminum",
+      "path": "~/Ore Multiplication/Aluminum"
+    },
+    {
+      "name": "ClumpAluminum",
+      "type": "item",
+      "sortid": 645,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clump_aluminum",
+      "path": "~/Ore Multiplication/Aluminum"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "daysJoined",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "daysTime",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "playerMovementSpeed",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "daysJoindedTotal",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "LootContainerOpenedCount",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "eff_galvanized_sheet_metal",
+      "files": [
+        "zinkovanej_plech"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "mob_owl_ambient",
+      "files": [
+        "owl1",
+        "owl2",
+        "owl3"
+      ],
+      "category": "hostile",
+      "subtitle": "Owl hoots"
+    },
+    {
+      "name": "entity.hamster.living",
+      "files": [
+        "hamster_living_a",
+        "hamster_living_b",
+        "hamster_living_c",
+        "hamster_living_d",
+        "hamster_living_e",
+        "hamster_living_f",
+        "hamster_living_g",
+        "hamster_living_h"
+      ],
+      "category": "ambient",
+      "subtitle": "Hamster squeaks"
+    },
+    {
+      "name": "entity.hamster.death",
+      "files": [
+        "hamster_death"
+      ],
+      "category": "ambient",
+      "subtitle": "Hamster died"
+    },
+    {
+      "name": "entity.hamster.hurt",
+      "files": [
+        "hamster_hurt_a",
+        "hamster_hurt_b",
+        "hamster_hurt_c",
+        "hamster_hurt_d",
+        "hamster_hurt_e"
+      ],
+      "category": "ambient",
+      "subtitle": "Hamster hurt"
+    },
+    {
+      "name": "entity.hamster.step",
+      "files": [
+        "hamster_step"
+      ],
+      "category": "ambient",
+      "subtitle": "Footsteps"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "gamerule.chickenWingsEffectDuration": "Chicken Wings Slow Fall duration",
+      "item.piseks_spidk_ii_tweaks.wooden_boots": "Wooden Boots",
+      "item.piseks_spidk_ii_tweaks.bell": "Bell",
+      "item.piseks_spidk_ii_tweaks.cooked_ceramic_brick": "Cooked Ceramic Brick",
+      "item.piseks_spidk_ii_tweaks.white_hamster": "Albino Hamster",
+      "block.piseks_spidk_ii_tweaks.healing_rune": "Healing Rune",
+      "entity.piseks_spidk_ii_tweaks.hamster_white": "Hamster",
+      "item.piseks_spidk_ii_tweaks.chromatic_ingot": "Chromatic Ingot",
+      "item.piseks_spidk_ii_tweaks.clump_aluminum": "Aluminum Clump",
+      "gamerule.healingRuneEffectStrenght.description": "If set to 0, Regeneration I will be applied.",
+      "block.piseks_spidk_ii_tweaks.emberwood_planks": "Emberwood Planks",
+      "gamerule.enableAcidRain.description": "Enable Acid Rain",
+      "subtitles.sfx_apple_pen": "Apple Pen",
+      "item.piseks_spidk_ii_tweaks.shard_coal": "Coal Shard",
+      "gamerule.healingBedHunger": "Healing Bed healing cost",
+      "item.piseks_spidk_ii_tweaks.dracula": "Dracula",
+      "block.piseks_spidk_ii_tweaks.lock": "Lock",
+      "gamerule.squidJetCooldown.description": "How many seconds will player need to wait till next use",
+      "advancements.squid_launch.title": "It\u0027s like a squid in love with the sky",
+      "item.piseks_spidk_ii_tweaks.helapoiesis": "Helapoiesis",
+      "item.piseks_spidk_ii_tweaks.jerky": "Jerky",
+      "item.piseks_spidk_ii_tweaks.pen": "Pen",
+      "item.piseks_spidk_ii_tweaks.yellow_hamster": "Golden Hamster",
+      "gamerule.healingBedHunger.description": "How many hunger points will it take to heal.",
+      "block.piseks_spidk_ii_tweaks.clocktower_ring": "Clocktower Ring",
+      "block.piseks_spidk_ii_tweaks.star": "Star",
+      "block.piseks_spidk_ii_tweaks.emberwood_fence_gate": "Emberwood Fence Gate",
+      "block.piseks_spidk_ii_tweaks.enriched_soul_soil": "Enriched Soul Soil",
+      "effect.stagger": "Stagger",
+      "gamerule.isUmbrellaInHandNeeded": "Is Umbrella needed in player\u0027s hand?",
+      "block.piseks_spidk_ii_tweaks.stripped_emberwood_hyphae": "Stripped Emberwood Hyphae",
+      "item.piseks_spidk_ii_tweaks.chicken_wings": "Chicken Wings",
+      "item.piseks_spidk_ii_tweaks.singularity_helapoiesis": "Singularity",
+      "block.piseks_spidk_ii_tweaks.hamster_wheel": "Hamster Wheel",
+      "block.piseks_spidk_ii_tweaks.emberwood_fence": "Emberwood Fence",
+      "block.piseks_spidk_ii_tweaks.emberwood_slab": "Emberwood Slab",
+      "item.piseks_spidk_ii_tweaks.wishpower_tattoo": "Wishpower Tattoo",
+      "block.piseks_spidk_ii_tweaks.loot_container_brown": "Loot Container",
+      "item.piseks_spidk_ii_tweaks.hamster_ginger_spawn_egg": "Hamster Spawn Egg",
+      "item.piseks_spidk_ii_tweaks.juice": "Juice",
+      "item.piseks_spidk_ii_tweaks.pee_spawn_egg": "Pee Spawn Egg",
+      "item.piseks_spidk_ii_tweaks.leaf_leggings": "Leaf Skirt",
+      "gamerule.healingBedBonusDivider": "Healing Bed\u0027s bonus denominator",
+      "item.piseks_spidk_ii_tweaks.gravity_orb": "Gravity Orb",
+      "item.piseks_spidk_ii_tweaks.compressed_netherite_boots": "Compressed Netherite Boots",
+      "item.piseks_spidk_ii_tweaks.brown_hamster": "Brown Hamster",
+      "block.piseks_spidk_ii_tweaks.emberwood_trapdoor": "Emberwood Trapdoor",
+      "subtitles.entity.hamster.death": "Hamster died",
+      "block.piseks_spidk_ii_tweaks.emberwood_pressure_plate": "Emberwood Pressure Plate",
+      "block.piseks_spidk_ii_tweaks.grass_carpet": "Grass Carpet",
+      "block.piseks_spidk_ii_tweaks.miner_mk_3": "Miner",
+      "block.piseks_spidk_ii_tweaks.miner_mk_2": "Miner",
+      "subtitles.eff_galvanized_sheet_metal": "",
+      "block.piseks_spidk_ii_tweaks.glow_glass": "Glow Glass",
+      "item.piseks_spidk_ii_tweaks.blue_pill": "Blue Pill",
+      "entity.piseks_spidk_ii_tweaks.hamster_yellow": "Hamster",
+      "block.piseks_spidk_ii_tweaks.emberwood_sapling": "Emberwood Sapling",
+      "entity.piseks_spidk_ii_tweaks.pee": "Pee",
+      "block.piseks_spidk_ii_tweaks.miner_mk_4": "Miner",
+      "gamerule.hamsterWheelGeneration.description": "How many FE will Wheel Generate",
+      "item.piseks_spidk_ii_tweaks.orange_juice": "Orange Juice",
+      "entity.piseks_spidk_ii_tweaks.hamster_ginger": "Hamster",
+      "item.piseks_spidk_ii_tweaks.urineatnite_axe": "Urineatnite Axe",
+      "subtitles.entity.hamster.hurt": "Hamster hurt",
+      "block.piseks_spidk_ii_tweaks.emberwood_button": "Emberwood Button",
+      "block.piseks_spidk_ii_tweaks.miner_mk_1": "Miner",
+      "entity.piseks_spidk_ii_tweaks.hamster_brown": "Hamster",
+      "block.piseks_spidk_ii_tweaks.helix_shelf": "Dreamwood Bookshelf",
+      "block.piseks_spidk_ii_tweaks.emberwood_hyphae": "Emberwood Hyphae",
+      "item.piseks_spidk_ii_tweaks.horsemeat": "Horsemeat",
+      "block.piseks_spidk_ii_tweaks.soul_resonator": "Soul Resonator",
+      "item.piseks_spidk_ii_tweaks.urineatnite_hoe": "Urineatnite Hoe",
+      "block.piseks_spidk_ii_tweaks.pure_osmium_ore": "Pure Osmium Ore",
+      "advancements.fly_my_wings.title": "Fly, My Wings",
+      "item.piseks_spidk_ii_tweaks.shard_aluminum": "Aluminum Shard",
+      "entity.piseks_spidk_ii_tweaks.stig": "Stig",
+      "item.piseks_spidk_ii_tweaks.hamster_brown_spawn_egg": "Hamster Spawn Egg",
+      "block.piseks_spidk_ii_tweaks.pure_gold_ore": "Pure Gold Ore",
+      "item.piseks_spidk_ii_tweaks.compressed_netherite_leggings": "Compressed Netherite Leggings",
+      "item.piseks_spidk_ii_tweaks.owl_spawn_egg": "Owl Spawn Egg",
+      "subtitles.eff_sus": "There is impostor amogus",
+      "advancements.treasuer_hunter.title": "Treasuer Hunter",
+      "item.piseks_spidk_ii_tweaks.red_pill": "Red Pill",
+      "block.piseks_spidk_ii_tweaks.pure_diamond_ore": "Pure Diamond Ore",
+      "gamerule.healingBedHeal": "Healing Bed Power",
+      "item.piseks_spidk_ii_tweaks.enchanted_paper": "Enchanted Paper",
+      "block.piseks_spidk_ii_tweaks.embercore": "Embercore",
+      "block.piseks_spidk_ii_tweaks.molten_glow_glass": "Molten Glow Glass",
+      "advancements.smelt_jerky.descr": "Get some Monster Jerky",
+      "item.piseks_spidk_ii_tweaks.wooden_leggings": "Wooden Leggings",
+      "block.piseks_spidk_ii_tweaks.urineatnite_block": "Block of Urineatnite",
+      "advancements.craft_umbrella.title": "You\u0027re my shelter from every storm.",
+      "block.piseks_spidk_ii_tweaks.polished_bedrock": "Polished Bedrock",
+      "block.piseks_spidk_ii_tweaks.pure_copper_ore": "Pure Copper Ore",
+      "item.piseks_spidk_ii_tweaks.urineatnite_shovel": "Urineatnite Shovel",
+      "item.piseks_spidk_ii_tweaks.leaf_chestplate": "Leaf Chestplate",
+      "item.piseks_spidk_ii_tweaks.urineatnite_leggings": "Urineatnite Leggings",
+      "block.piseks_spidk_ii_tweaks.clocktower_vault": "Clocktower Vault",
+      "gamerule.chickenWingsEffectDuration.description": "Duration of the effect in seconds",
+      "biome.piseks_spidk_ii_tweaks.dreamy_waters": "Dreamy Waters",
+      "block.piseks_spidk_ii_tweaks.decayed_podzol": "Decayed Podzol",
+      "block.piseks_spidk_ii_tweaks.emberwood_stairs": "Emberwood Stairs",
+      "block.piseks_spidk_ii_tweaks.emberwood_door": "Emberwood Door",
+      "gamerule.healingRuneEffectStrenght": "Regeneration strenght of Healing Rune",
+      "item.piseks_spidk_ii_tweaks.cooked_horsemeat": "Cooked Horsemeat",
+      "item.piseks_spidk_ii_tweaks.ring_of_null": "Ring of Null",
+      "item.piseks_spidk_ii_tweaks.urineatnite_ingot": "Urineatnite Ingot",
+      "item.piseks_spidk_ii_tweaks.singularity_wishpower": "Singularity",
+      "item.piseks_spidk_ii_tweaks.urineatnite_sword": "Urineatnite Shovel",
+      "item.piseks_spidk_ii_tweaks.ginger_hamster": "Ginger Hamster",
+      "block.piseks_spidk_ii_tweaks.synk": "Synk",
+      "advancements.squid_launch.descr": "Beware of the explosions!",
+      "subtitles.entity.hamster.step": "Footsteps",
+      "block.piseks_spidk_ii_tweaks.computer": "Computer",
+      "block.piseks_spidk_ii_tweaks.toilet": "Toilet",
+      "item.piseks_spidk_ii_tweaks.worldcaller": "Worldcaller",
+      "item.piseks_spidk_ii_tweaks.hand_knife": "Hand Knife",
+      "item.piseks_spidk_ii_tweaks.plum_jam": "Plum Jam",
+      "block.piseks_spidk_ii_tweaks.cracked_void": "Cracked Void",
+      "item.piseks_spidk_ii_tweaks.wooden_chestplate": "Wooden Chestplate",
+      "block.piseks_spidk_ii_tweaks.fissure_leading_outside": "Fissure Leading Outside",
+      "advancements.craft_umbrella.descr": "Use an Umbrella while its raining.",
+      "advancements.fly_my_wings.descr": "Obtain Chicken Wings",
+      "subtitles.entity.hamster.living": "Hamster squeaks",
+      "block.piseks_spidk_ii_tweaks.pure_emerald_ore": "Pure Emerald Ore",
+      "item.piseks_spidk_ii_tweaks.leaf_helmet": "Leaf Helmet",
+      "gamerule.squidJetCooldown": "Cooldown of Squid Jet",
+      "advancements.smelt_jerky.title": "If it doestn\u0027t have meat, it\u0027s a snack.",
+      "item.piseks_spidk_ii_tweaks.molten_glow_glass_bucket": "Molten Glow Glass Bucket",
+      "gamerule.isUmbrellaInHandNeeded.description": "When disabled, player must hold umbrella in hand not to get Poison",
+      "block.piseks_spidk_ii_tweaks.ryse": "Ryse",
+      "block.piseks_spidk_ii_tweaks.emberwood_stem": "Emberwood Stem",
+      "item.piseks_spidk_ii_tweaks.compressed_netherite_helmet": "Compressed Netherite Helmet",
+      "item.piseks_spidk_ii_tweaks.zinkovanej_plech": "Galvanized Sheet Metal",
+      "block.piseks_spidk_ii_tweaks.stripped_emberwood_stem": "Stripped Emberwood Stem",
+      "subtitles.mob_owl_ambient": "Owl hoots",
+      "item.piseks_spidk_ii_tweaks.danis_milk": "Danis Milk",
+      "advancements.plastic_memories.title": "Plastic Memories",
+      "item.piseks_spidk_ii_tweaks.hamster_yellow_spawn_egg": "Hamster Spawn Egg",
+      "item.piseks_spidk_ii_tweaks.hand": "Hand",
+      "advancements.treasuer_hunter.descr": "Open 500 chests",
+      "gamerule.hamsterWheelGeneration": "Hamster Wheel Energy Generation",
+      "item.piseks_spidk_ii_tweaks.leaf_boots": "Leaf Boots",
+      "gamerule.squidJetVelocity.description": "How much velocity will be given to player.",
+      "item.piseks_spidk_ii_tweaks.squid_jet": "Squid Jet",
+      "advancements.by_mistake.descr": "It\u0027s squishy now??",
+      "item.piseks_spidk_ii_tweaks.piss_bottle": "Bottle o\u0027 Piss",
+      "item.piseks_spidk_ii_tweaks.poo": "Poo",
+      "item.piseks_spidk_ii_tweaks.bulldozer": "Bulldozer",
+      "advancements.by_mistake.title": "By Mistake",
+      "item.piseks_spidk_ii_tweaks.urineatnite_pickaxe": "Urineatnite Pickaxe",
+      "block.piseks_spidk_ii_tweaks.advanced_crafting_table": "§5Advanced Crafting Table",
+      "item.piseks_spidk_ii_tweaks.wooden_helmet": "Wooden Helmet",
+      "item.piseks_spidk_ii_tweaks.urineatnite_boots": "Urineatnite Boots",
+      "item.piseks_spidk_ii_tweaks.spicebush_branch": "Spicebush Branch",
+      "item.piseks_spidk_ii_tweaks.piggy_bank": "Piggy Bank",
+      "item.piseks_spidk_ii_tweaks.urineatnite_chestplate": "Urineatnite Chestplate",
+      "item.piseks_spidk_ii_tweaks.berserk": "Berserk",
+      "item.piseks_spidk_ii_tweaks.compressed_netherite_blend": "Compressed Netherite Blend",
+      "item.piseks_spidk_ii_tweaks.clump_coal": "Coal Clump",
+      "item.piseks_spidk_ii_tweaks.hamster_white_spawn_egg": "Hamster Spawn Egg",
+      "block.piseks_spidk_ii_tweaks.pure_nether_quartz_ore": "Pure Nether Quartz Ore",
+      "item.piseks_spidk_ii_tweaks.watch": "Watch",
+      "item.piseks_spidk_ii_tweaks.umbrella": "Umbrella",
+      "item.piseks_spidk_ii_tweaks.pride": "§dPride",
+      "entity.piseks_spidk_ii_tweaks.owl": "Owl",
+      "item.piseks_spidk_ii_tweaks.dumbbell": "Dumbbell",
+      "block.piseks_spidk_ii_tweaks.clocktower_wall": "Clocktower Wall",
+      "item.piseks_spidk_ii_tweaks.urineatnite_helmet": "Urineatnite Helmet",
+      "item.piseks_spidk_ii_tweaks.compressed_netherite_chestplate": "Compressed Netherite Chestplate",
+      "fluid.piseks_spidk_ii_tweaks.molten_glow_glass": "Molten Glow Glass",
+      "gamerule.healingBedHeal.description": "How many HP wil the bed restore",
+      "item.piseks_spidk_ii_tweaks.gluttony": "Gluttony",
+      "block.piseks_spidk_ii_tweaks.loot_container_blue": "Loot Container",
+      "item.piseks_spidk_ii_tweaks.punch_card": "Punch Card",
+      "block.piseks_spidk_ii_tweaks.compressed_netherite_block": "Compressed Netherite Block",
+      "gamerule.enableAcidRain": "Enable Acid Rain",
+      "block.piseks_spidk_ii_tweaks.loot_container_gold": "Loot Container",
+      "item.piseks_spidk_ii_tweaks.sneakers": "Sneakers",
+      "block.piseks_spidk_ii_tweaks.loot_container_black": "Loot Container",
+      "item.piseks_spidk_ii_tweaks.janniks_frog": "Frog",
+      "item.piseks_spidk_ii_tweaks.ring_of_fortune": "Ring of Fortune",
+      "item.piseks_spidk_ii_tweaks.stig_spawn_egg": "Stig Spawn Egg",
+      "advancements.plastic_memories.descr": "Obtain Ring of Fortune",
+      "block.piseks_spidk_ii_tweaks.pure_iron_ore": "Pure Iron Ore",
+      "block.piseks_spidk_ii_tweaks.warped_roots_carpet": "Warped Roots Carpet",
+      "block.piseks_spidk_ii_tweaks.crimson_roots_carpet": "Crimson Roots Carpet",
+      "block.piseks_spidk_ii_tweaks.smooth_embercore": "Smooth Embercore",
+      "gamerule.healingBedBonusDivider.description": "Value used in division to reduce bonus",
+      "gamerule.squidJetVelocity": "Y velocity of Squid Jet",
+      "item.piseks_spidk_ii_tweaks.redstone_circuit": "Redstone Circuit"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Acid Rain",
+        "children": []
+      },
+      {
+        "name": "Jerky",
+        "children": []
+      },
+      {
+        "name": "Squid Jet",
+        "children": []
+      },
+      {
+        "name": "Chicken Wings",
+        "children": []
+      },
+      {
+        "name": "Gravity Orb",
+        "children": []
+      },
+      {
+        "name": "Ring",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Bedrock",
+        "children": []
+      },
+      {
+        "name": "Day Overlap",
+        "children": []
+      },
+      {
+        "name": "Cooked Ceramic Brick",
+        "children": []
+      },
+      {
+        "name": "Clocktowers",
+        "children": []
+      },
+      {
+        "name": "Bell",
+        "children": []
+      },
+      {
+        "name": "Pen",
+        "children": []
+      },
+      {
+        "name": "Computer",
+        "children": []
+      },
+      {
+        "name": "Additions",
+        "children": []
+      },
+      {
+        "name": "Variables Command",
+        "children": []
+      },
+      {
+        "name": "Infinity Fluids",
+        "children": [
+          {
+            "name": "Water",
+            "children": []
+          },
+          {
+            "name": "Lava",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Decayed Podzol",
+        "children": []
+      },
+      {
+        "name": "Punch Card",
+        "children": []
+      },
+      {
+        "name": "Game Rules",
+        "children": [
+          {
+            "name": "Acid Rain",
+            "children": []
+          },
+          {
+            "name": "Squid Jet",
+            "children": []
+          },
+          {
+            "name": "Healing Bed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Compressed Netherite",
+        "children": []
+      },
+      {
+        "name": "Global Triggers",
+        "children": []
+      },
+      {
+        "name": "Povidla",
+        "children": []
+      },
+      {
+        "name": "Toilet",
+        "children": []
+      },
+      {
+        "name": "Chromatic Metal",
+        "children": []
+      },
+      {
+        "name": "Advanced Crafting",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": [
+              {
+                "name": "Shaped",
+                "children": []
+              },
+              {
+                "name": "Shapeless",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hand Knife",
+        "children": []
+      },
+      {
+        "name": "Pee",
+        "children": []
+      },
+      {
+        "name": "Enriched Soul Soil",
+        "children": []
+      },
+      {
+        "name": "Singularities",
+        "children": [
+          {
+            "name": "Ks Singularity",
+            "children": []
+          },
+          {
+            "name": "Js Singularity",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Pride",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": [
+          {
+            "name": "SPIDK 2 Tweaks",
+            "children": [
+              {
+                "name": "logs",
+                "children": []
+              },
+              {
+                "name": "stems",
+                "children": []
+              },
+              {
+                "name": "ore",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Forge",
+            "children": [
+              {
+                "name": "dyes",
+                "children": []
+              },
+              {
+                "name": "ores",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Vanilla",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Owl",
+        "children": []
+      },
+      {
+        "name": "Hamster",
+        "children": [
+          {
+            "name": "Entity",
+            "children": []
+          },
+          {
+            "name": "Item",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Purities",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "Miners",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Wood",
+        "children": [
+          {
+            "name": "Emberwood",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Carpet",
+        "children": []
+      },
+      {
+        "name": "Embercore",
+        "children": []
+      },
+      {
+        "name": "Glow Glass",
+        "children": []
+      },
+      {
+        "name": "Urineatnite",
+        "children": []
+      },
+      {
+        "name": "Spicebush",
+        "children": [
+          {
+            "name": "Spicebush Branch Attack Patterns",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Status Effects",
+        "children": [
+          {
+            "name": "Keyword",
+            "children": []
+          },
+          {
+            "name": "Stagger",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Soul Resonator",
+        "children": []
+      },
+      {
+        "name": "Horsemeat",
+        "children": []
+      },
+      {
+        "name": "Stig",
+        "children": []
+      },
+      {
+        "name": "Gluttony",
+        "children": []
+      },
+      {
+        "name": "Power Ups",
+        "children": [
+          {
+            "name": "Loot Containers",
+            "children": []
+          },
+          {
+            "name": "Common",
+            "children": []
+          },
+          {
+            "name": "Rare",
+            "children": []
+          },
+          {
+            "name": "Legendary",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ore Multiplication",
+        "children": [
+          {
+            "name": "Coal",
+            "children": []
+          },
+          {
+            "name": "Aluminum",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "piseks_spidk_ii_tweaks",
+    "modName": "Pisek\u0027s SPIDK 2 Tweaks",
+    "version": "2.5.1.1",
+    "author": "Písek Pískovec",
+    "websiteURL": "https://github.com/Piseks-Mods/SPIDK2-Tweaks-Public",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "mod",
+    "requiredMods": [],
+    "dependencies": [
+      "tconstruct",
+      "piseks_enderite",
+      "botania",
+      "piseks_utilities_ii",
+      "mekanism",
+      "bloodmagic",
+      "extrastorage",
+      "quark",
+      "refinedstorage",
+      "nethers_delight",
+      "curio"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Textures by: Pisek, CraftBench AI, lucixnkaa; Models by: Pisek, lucixnkaa",
+    "modElementsPackage": "cz.pisekpiskovec.spidktweaks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "piseks_spidk_ii_tweaks:hand"
+  },
+  "addition": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:hand_knife"
+  }
+}

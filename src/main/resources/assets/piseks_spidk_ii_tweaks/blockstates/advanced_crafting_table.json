@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "piseks_spidk_ii_tweaks:block/advanced_crafting_table"
+    },
+    "facing=east": {
+      "model": "piseks_spidk_ii_tweaks:block/advanced_crafting_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "piseks_spidk_ii_tweaks:block/advanced_crafting_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "piseks_spidk_ii_tweaks:block/advanced_crafting_table",
+      "y": 270
+    }
+  }
+}

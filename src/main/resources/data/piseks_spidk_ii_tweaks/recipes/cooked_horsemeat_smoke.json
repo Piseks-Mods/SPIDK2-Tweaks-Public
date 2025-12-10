@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "piseks_spidk_ii_tweaks:horsemeat"
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:cooked_horsemeat"
+  }
+}

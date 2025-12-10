@@ -1,0 +1,33 @@
+{
+  "group": "wooden_door",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "1": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "3": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "4": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "5": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:emberwood_door",
+    "count": 3
+  }
+}

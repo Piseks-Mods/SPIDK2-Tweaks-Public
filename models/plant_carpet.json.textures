@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "plant": "grass_capret"
+      },
+      "name": "default"
+    },
+    "crimson_roots": {
+      "map": {
+        "plant": "crimson_roots_carpet"
+      },
+      "name": "crimson_roots"
+    },
+    "warped_roots": {
+      "map": {
+        "plant": "warped_roots_carpet"
+      },
+      "name": "warped_roots"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "compressed_netherite_helmet",
+    "enableBody": true,
+    "textureBody": "compressed_netherite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "compressed_netherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "compressed_netherite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "compressed_netherite_",
+    "helmetName": "Compressed Netherite Helmet",
+    "bodyName": "Compressed Netherite Chestplate",
+    "leggingsName": "Compressed Netherite Leggings",
+    "bootsName": "Compressed Netherite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 333,
+    "damageValueHelmet": 6,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 6,
+    "enchantability": 60,
+    "toughness": 9.0,
+    "knockbackResistance": 0.9,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CompressedNetheriteBlock"
+      }
+    ]
+  }
+}

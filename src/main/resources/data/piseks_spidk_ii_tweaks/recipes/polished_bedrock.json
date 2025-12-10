@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "1": {
+      "item": "minecraft:bedrock"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:polished_bedrock",
+    "count": 4
+  }
+}

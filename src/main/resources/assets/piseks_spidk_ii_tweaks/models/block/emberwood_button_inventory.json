@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "piseks_spidk_ii_tweaks:blocks/emberwood_planks"
+  }
+}

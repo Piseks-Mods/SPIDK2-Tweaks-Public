@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "piseks_spidk_ii_tweaks:blocks/emberwood_planks"
+  }
+}

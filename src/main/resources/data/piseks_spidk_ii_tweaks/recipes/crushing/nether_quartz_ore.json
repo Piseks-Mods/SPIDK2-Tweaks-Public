@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "piseks_spidk_ii_tweaks:pure_nether_quartz_ore"
+    }
+  },
+  "output": {
+    "item": "minecraft:nether_quartz_ore",
+    "count": 2
+  }
+}

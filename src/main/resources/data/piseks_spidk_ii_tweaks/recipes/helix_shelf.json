@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "ppp",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "item": "botania:dreamwood_planks"
+    },
+    "p": {
+      "item": "piseks_spidk_ii_tweaks:enchanted_paper"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:helix_shelf",
+    "count": 1
+  }
+}

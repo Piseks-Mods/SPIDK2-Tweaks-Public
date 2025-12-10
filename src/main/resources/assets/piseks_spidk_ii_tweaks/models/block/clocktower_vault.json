@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "piseks_spidk_ii_tweaks:blocks/clocktower_wall",
+    "up": "piseks_spidk_ii_tweaks:blocks/clocktower_wall_cracked",
+    "north": "piseks_spidk_ii_tweaks:blocks/clocktower_wall",
+    "east": "piseks_spidk_ii_tweaks:blocks/clocktower_wall",
+    "south": "piseks_spidk_ii_tweaks:blocks/clocktower_wall",
+    "west": "piseks_spidk_ii_tweaks:blocks/clocktower_wall",
+    "particle": "piseks_spidk_ii_tweaks:blocks/clocktower_wall"
+  }
+}

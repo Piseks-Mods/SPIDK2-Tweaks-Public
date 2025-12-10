@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.RED_NETHER_BRICK"
+      },
+      {
+        "value": "Items.CAULDRON"
+      },
+      {
+        "value": "Blocks.RED_NETHER_BRICK"
+      },
+      {
+        "value": "Blocks.RED_NETHER_BRICK"
+      },
+      {
+        "value": "TAG:forge:stems/stripped"
+      },
+      {
+        "value": "Blocks.RED_NETHER_BRICK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ryse"
+    },
+    "name": "ryse",
+    "namespace": "mod"
+  }
+}

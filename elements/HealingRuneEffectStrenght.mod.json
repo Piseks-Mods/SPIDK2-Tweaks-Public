@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Regeneration strenght of Healing Rune",
+    "description": "If set to 0, Regeneration I will be applied.",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 1
+  }
+}

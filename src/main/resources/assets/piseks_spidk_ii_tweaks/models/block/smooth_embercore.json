@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/smooth_embercore",
+    "particle": "piseks_spidk_ii_tweaks:blocks/smooth_embercore"
+  }
+}

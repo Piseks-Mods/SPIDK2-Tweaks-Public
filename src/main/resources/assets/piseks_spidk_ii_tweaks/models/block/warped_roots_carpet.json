@@ -1,0 +1,8 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/plant_carpet",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/warped_roots_carpet",
+    "particle": "piseks_spidk_ii_tweaks:blocks/warped_roots_carpet",
+    "plant": "piseks_spidk_ii_tweaks:blocks/warped_roots_carpet"
+  }
+}

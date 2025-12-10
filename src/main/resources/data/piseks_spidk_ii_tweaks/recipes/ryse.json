@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nln",
+    "bcb",
+    "bsb"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "l": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "c": {
+      "item": "minecraft:cauldron"
+    },
+    "s": {
+      "tag": "piseks_spidk_ii_tweaks:stems/stripped"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:ryse",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/hamster_wheel",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/hamster_brown",
+    "particle": "piseks_spidk_ii_tweaks:blocks/hamster_brown",
+    "1": "piseks_spidk_ii_tweaks:blocks/hamster_brown",
+    "2": "piseks_spidk_ii_tweaks:blocks/smooth_stone",
+    "3": "piseks_spidk_ii_tweaks:blocks/anvil"
+  }
+}

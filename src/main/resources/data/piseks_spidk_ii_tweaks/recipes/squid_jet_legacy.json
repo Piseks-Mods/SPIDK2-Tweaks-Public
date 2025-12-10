@@ -1,0 +1,42 @@
+{
+  "group": "squid_jet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_dye"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:black_dye"
+    },
+    "3": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "4": {
+      "item": "piseks_spidk_ii_tweaks:chicken_wings"
+    },
+    "5": {
+      "item": "minecraft:ender_pearl"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:squid_jet",
+    "count": 1
+  }
+}

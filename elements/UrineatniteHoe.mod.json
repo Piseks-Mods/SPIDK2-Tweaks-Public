@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "urineatnite_hoe",
+    "customModelName": "Normal",
+    "name": "Urineatnite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 13.5,
+    "attackSpeed": 6.0,
+    "enchantability": 22,
+    "damageVsEntity": 2.5,
+    "usageCount": 3046,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrineatniteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

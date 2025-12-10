@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "up": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "north": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "east": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "south": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "west": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil",
+    "particle": "piseks_spidk_ii_tweaks:blocks/enriched_soul_soil"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "piseks_spidk_ii_tweaks:blocks/emberwood_door_bottom",
+    "top": "piseks_spidk_ii_tweaks:blocks/emberwood_door_top"
+  }
+}

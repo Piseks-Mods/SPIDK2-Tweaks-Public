@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "betterendforge:glowing_bulb"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_iron",
+    "amount": 1152
+  },
+  "result": "piseks_spidk_ii_tweaks:music_disc_vinecko",
+  "cooling_time": 288
+}

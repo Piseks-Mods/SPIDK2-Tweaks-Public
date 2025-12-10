@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "piseks_spidk_ii_tweaks:cooked_ceramic_brick"
+    },
+    "title": {
+      "translate": "advancements.by_mistake.title"
+    },
+    "description": {
+      "translate": "advancements.by_mistake.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "by_mistake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "piseks_spidk_ii_tweaks:cooked_ceramic_brick",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

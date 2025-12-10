@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedEmberwoodStem"
+      },
+      {
+        "value": "CUSTOM:StrippedEmberwoodStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedEmberwoodStem"
+      },
+      {
+        "value": "CUSTOM:StrippedEmberwoodStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedEmberwoodHyphae"
+    },
+    "name": "stripped_emberwood_hyphae",
+    "namespace": "minecraft"
+  }
+}

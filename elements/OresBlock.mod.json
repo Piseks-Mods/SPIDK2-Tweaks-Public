@@ -1,0 +1,36 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PureIronOre"
+      },
+      {
+        "value": "CUSTOM:PureGoldOre"
+      },
+      {
+        "value": "CUSTOM:PureOsmiumOre"
+      },
+      {
+        "value": "CUSTOM:PureCopperOre"
+      },
+      {
+        "value": "CUSTOM:PureNetherQuartzOre"
+      },
+      {
+        "value": "CUSTOM:PureDiamondOre"
+      },
+      {
+        "value": "CUSTOM:PureEmeraldOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ores",
+    "namespace": "forge"
+  }
+}

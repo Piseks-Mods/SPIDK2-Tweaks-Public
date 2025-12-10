@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Healing Bed's bonus denominator",
+    "description": "Value used in division to reduce bonus",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 3
+  }
+}

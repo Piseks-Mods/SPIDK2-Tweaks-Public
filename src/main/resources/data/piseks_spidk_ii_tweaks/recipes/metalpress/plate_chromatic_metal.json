@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:metal_press",
+	"mold": {
+		"item":"immersiveengineering:mold_plate"
+	},
+	"result": {
+		"item":"piseks_spidk_ii_tweaks:zinkovanej_plech"
+	},
+	"input": {
+		"item":"piseks_spidk_ii_tweaks:chromatic_ingot"
+	},
+	"energy":4800
+}

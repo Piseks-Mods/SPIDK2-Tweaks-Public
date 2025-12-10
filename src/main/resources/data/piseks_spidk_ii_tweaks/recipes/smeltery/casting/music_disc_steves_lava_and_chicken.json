@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:chicken"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:blazing_blood",
+    "amount": 200
+  },
+  "result": "piseks_spidk_ii_tweaks:music_disc_steves_lava_and_chicken",
+  "cooling_time": 95
+}

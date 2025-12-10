@@ -1,0 +1,13 @@
+{
+  "group": "planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "piseks_spidk_ii_tweaks:stems/emberwood"
+    }
+  ],
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:emberwood_planks",
+    "count": 4
+  }
+}

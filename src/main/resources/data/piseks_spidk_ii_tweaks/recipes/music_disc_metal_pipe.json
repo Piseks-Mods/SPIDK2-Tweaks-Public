@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "0 0",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:basic_mechanical_pipe"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:music_disc_metal_pipe",
+    "count": 1
+  }
+}

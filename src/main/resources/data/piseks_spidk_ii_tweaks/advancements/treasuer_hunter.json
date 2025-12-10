@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "piseks_spidk_ii_tweaks:loot_container_gold"
+    },
+    "title": {
+      "translate": "advancements.treasuer_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.treasuer_hunter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "treasuer_hunter": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

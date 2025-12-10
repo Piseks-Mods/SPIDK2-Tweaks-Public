@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hammer": "advanced_crafting_table_hammer",
+        "s_oak_log": "stripped_oak_log",
+        "spruce_planks": "spruce_planks",
+        "anvil": "anvil",
+        "s_spruce_log": "stripped_spruce_log",
+        "book": "advanced_crafting_table_book",
+        "papers": "advanced_crafting_table_papers",
+        "spruce_log": "spruce_log"
+      },
+      "name": "default"
+    }
+  }
+}

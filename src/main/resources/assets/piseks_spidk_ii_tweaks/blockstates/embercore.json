@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "piseks_spidk_ii_tweaks:block/embercore",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "piseks_spidk_ii_tweaks:block/embercore"
+    },
+    "axis=z": {
+      "model": "piseks_spidk_ii_tweaks:block/embercore",
+      "x": 90
+    }
+  }
+}

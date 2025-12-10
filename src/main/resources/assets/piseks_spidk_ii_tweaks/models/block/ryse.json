@@ -1,0 +1,13 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/synk",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/ryse",
+    "particle": "piseks_spidk_ii_tweaks:blocks/red_nether_bricks",
+    "0": "piseks_spidk_ii_tweaks:blocks/stripped_warped_stem",
+    "1": "piseks_spidk_ii_tweaks:blocks/red_nether_bricks",
+    "2": "piseks_spidk_ii_tweaks:blocks/cauldron_inner",
+    "3": "piseks_spidk_ii_tweaks:blocks/netherite_block",
+    "4": "piseks_spidk_ii_tweaks:blocks/dark_stone",
+    "5": "piseks_spidk_ii_tweaks:blocks/lava_still"
+  }
+}

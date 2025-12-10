@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:note_block"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_tinkers_bronze",
+    "amount": 1000
+  },
+  "result": "piseks_spidk_ii_tweaks:music_disc_jazzy_note_blocks",
+  "cooling_time": 3160
+}

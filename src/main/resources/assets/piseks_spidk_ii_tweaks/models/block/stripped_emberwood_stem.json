@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log_top",
+    "up": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log_top",
+    "north": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log",
+    "east": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log",
+    "south": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log",
+    "west": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log",
+    "particle": "piseks_spidk_ii_tweaks:blocks/stripped_emberwood_log_top"
+  }
+}

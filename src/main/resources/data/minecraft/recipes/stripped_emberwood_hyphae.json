@@ -1,0 +1,26 @@
+{
+  "group": "bark",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:stripped_emberwood_stem"
+    },
+    "1": {
+      "item": "piseks_spidk_ii_tweaks:stripped_emberwood_stem"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:stripped_emberwood_stem"
+    },
+    "3": {
+      "item": "piseks_spidk_ii_tweaks:stripped_emberwood_stem"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:stripped_emberwood_hyphae",
+    "count": 3
+  }
+}

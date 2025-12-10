@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iwi",
+    "tct",
+    "tst"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    },
+    "t": {
+      "tag": "piseks_spidk_ii_tweaks:terracotta"
+    },
+    "c": {
+      "item": "minecraft:cauldron"
+    },
+    "s": {
+      "tag": "piseks_spidk_ii_tweaks:logs/stripped"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:synk",
+    "count": 1
+  }
+}

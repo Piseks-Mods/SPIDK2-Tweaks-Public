@@ -1,0 +1,7 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/hand",
+  "textures": {
+    "1": "piseks_spidk_ii_tweaks:blocks/steve",
+    "particle": "piseks_spidk_ii_tweaks:items/steve"
+  }
+}

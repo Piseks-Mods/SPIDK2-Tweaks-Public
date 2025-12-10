@@ -1,0 +1,26 @@
+{
+  "group": "plant_carpet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:grass"
+    },
+    "1": {
+      "item": "minecraft:grass"
+    },
+    "2": {
+      "item": "minecraft:grass"
+    },
+    "3": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:grass_carpet",
+    "count": 4
+  }
+}

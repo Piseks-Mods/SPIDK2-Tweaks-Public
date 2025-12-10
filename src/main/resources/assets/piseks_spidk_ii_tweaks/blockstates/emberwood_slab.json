@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "piseks_spidk_ii_tweaks:block/emberwood_slab"
+    },
+    "type=top": {
+      "model": "piseks_spidk_ii_tweaks:block/emberwood_slab_top"
+    },
+    "type=double": {
+      "model": "piseks_spidk_ii_tweaks:block/emberwood_slab_full"
+    }
+  }
+}

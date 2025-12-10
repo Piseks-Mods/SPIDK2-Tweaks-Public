@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "piseks_spidk_ii_tweaks:blocks/emberwood_planks",
+    "particle": "piseks_spidk_ii_tweaks:blocks/emberwood_planks"
+  }
+}

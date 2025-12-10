@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "3": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "4": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "5": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "6": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "7": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "8": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:compressed_netherite_chestplate",
+    "count": 1
+  }
+}

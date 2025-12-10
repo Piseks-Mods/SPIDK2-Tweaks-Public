@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "piseks_spidk_ii_tweaks:pure_iron_ore"
+    }
+  },
+  "output": {
+    "item": "minecraft:iron_ore",
+    "count": 2
+  }
+}

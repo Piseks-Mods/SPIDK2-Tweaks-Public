@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "lit_log": "soul_campfire_log_lit",
+        "log": "campfire_log",
+        "fire": "soul_campfire_fire"
+      },
+      "name": "default"
+    },
+    "soul_resonator": {
+      "map": {
+        "lit_log": "soul_resonator_log_lit",
+        "log": "campfire_log",
+        "fire": "soul_resonator_fire"
+      },
+      "name": "soul_resonator"
+    }
+  }
+}

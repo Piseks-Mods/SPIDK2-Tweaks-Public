@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "squid_jet",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.NAUTILUS_SHELL"
+      },
+      {
+        "value": "CUSTOM:ChickenWings"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DYE#16"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SquidJet"
+    },
+    "name": "squid_jet_legacy",
+    "namespace": "mod"
+  }
+}

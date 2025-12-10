@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "piseks_spidk_ii_tweaks:blocks/emberwood_trapdoor",
+    "particle": "piseks_spidk_ii_tweaks:blocks/emberwood_trapdoor"
+  }
+}

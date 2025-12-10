@@ -1,0 +1,10 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/model_campfire",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/soul_resonator_fire",
+    "particle": "piseks_spidk_ii_tweaks:blocks/soul_resonator_fire",
+    "lit_log": "piseks_spidk_ii_tweaks:blocks/soul_resonator_log_lit",
+    "log": "piseks_spidk_ii_tweaks:blocks/campfire_log",
+    "fire": "piseks_spidk_ii_tweaks:blocks/soul_resonator_fire"
+  }
+}

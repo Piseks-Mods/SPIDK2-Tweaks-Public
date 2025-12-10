@@ -1,0 +1,12 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/miner",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/miner",
+    "particle": "piseks_spidk_ii_tweaks:blocks/miner",
+    "1": "piseks_spidk_ii_tweaks:blocks/miner_plate",
+    "2": "piseks_spidk_ii_tweaks:blocks/iron_block",
+    "3": "piseks_spidk_ii_tweaks:blocks/oak_planks",
+    "5": "piseks_spidk_ii_tweaks:blocks/anvil",
+    "6": "piseks_spidk_ii_tweaks:blocks/miner_tier_a"
+  }
+}

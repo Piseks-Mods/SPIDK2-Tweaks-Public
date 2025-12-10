@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "piseks_spidk_ii_tweaks:umbrella"
+    },
+    "title": {
+      "translate": "advancements.craft_umbrella.title"
+    },
+    "description": {
+      "translate": "advancements.craft_umbrella.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_umbrella": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/sleep_in_bed"
+}

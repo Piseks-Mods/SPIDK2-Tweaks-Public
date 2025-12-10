@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:wither_bones",
+    "#forge:bones/wither"
+  ]
+}

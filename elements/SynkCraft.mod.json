@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:terracotta"
+      },
+      {
+        "value": "Items.CAULDRON"
+      },
+      {
+        "value": "TAG:terracotta"
+      },
+      {
+        "value": "TAG:terracotta"
+      },
+      {
+        "value": "TAG:logs/stripped"
+      },
+      {
+        "value": "TAG:terracotta"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Synk"
+    },
+    "name": "synk",
+    "namespace": "mod"
+  }
+}

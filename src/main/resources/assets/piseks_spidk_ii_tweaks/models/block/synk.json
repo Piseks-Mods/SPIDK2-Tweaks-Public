@@ -1,0 +1,13 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/synk",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/synk",
+    "particle": "piseks_spidk_ii_tweaks:blocks/terracotta",
+    "0": "piseks_spidk_ii_tweaks:blocks/stripped_oak_log",
+    "1": "piseks_spidk_ii_tweaks:blocks/terracotta",
+    "2": "piseks_spidk_ii_tweaks:blocks/cauldron_inner",
+    "3": "piseks_spidk_ii_tweaks:blocks/cauldron_top",
+    "4": "piseks_spidk_ii_tweaks:blocks/cobblestone",
+    "5": "piseks_spidk_ii_tweaks:blocks/water_still"
+  }
+}

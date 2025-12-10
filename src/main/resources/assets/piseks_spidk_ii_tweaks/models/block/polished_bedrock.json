@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/polished_bedrock",
+    "particle": "piseks_spidk_ii_tweaks:blocks/polished_bedrock"
+  }
+}

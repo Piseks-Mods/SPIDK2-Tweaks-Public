@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "3": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    },
+    "5": {
+      "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:compressed_netherite_boots",
+    "count": 1
+  }
+}

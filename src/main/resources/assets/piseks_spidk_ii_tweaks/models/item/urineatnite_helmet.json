@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "piseks_spidk_ii_tweaks:items/urineatnite_helmet"
+  }
+}

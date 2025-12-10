@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "piseks_spidk_ii_tweaks:molten_glow_glass",
+    "amount": 1000
+  },
+  "result": "piseks_spidk_ii_tweaks:glow_glass",
+  "cooling_time": 154
+}

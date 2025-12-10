@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.GLOWSTONE_DUST"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.ENDER_PEARL"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:Worldcaller"
+    },
+    "name": "worldcaller",
+    "namespace": "mod"
+  }
+}

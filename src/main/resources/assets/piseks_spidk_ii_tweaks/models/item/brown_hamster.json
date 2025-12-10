@@ -1,0 +1,7 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/hamster_item",
+  "textures": {
+    "0": "piseks_spidk_ii_tweaks:blocks/hamster_brown",
+    "particle": "piseks_spidk_ii_tweaks:items/hamster_spawn_egg"
+  }
+}

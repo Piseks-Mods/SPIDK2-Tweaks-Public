@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Y velocity of Squid Jet",
+    "description": "How much velocity will be given to player.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 3
+  }
+}

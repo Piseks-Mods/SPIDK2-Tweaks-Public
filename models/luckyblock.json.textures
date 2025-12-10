@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lucky_block",
+        "2": "lucky_block_frame"
+      },
+      "name": "default"
+    }
+  }
+}

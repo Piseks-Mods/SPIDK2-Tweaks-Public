@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "clocktower_wall",
+        "1": "clocktower_ring_trim"
+      },
+      "name": "default"
+    }
+  }
+}

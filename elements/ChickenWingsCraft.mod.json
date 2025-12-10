@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "chicken_wings",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChickenWings"
+    },
+    "name": "chicken_wings",
+    "namespace": "mod"
+  }
+}

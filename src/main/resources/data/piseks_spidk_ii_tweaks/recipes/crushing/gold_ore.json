@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "piseks_spidk_ii_tweaks:pure_gold_ore"
+    }
+  },
+  "output": {
+    "item": "minecraft:gold_ore",
+    "count": 2
+  }
+}

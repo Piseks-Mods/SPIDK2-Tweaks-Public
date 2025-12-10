@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "piseks_spidk_ii_tweaks:block/loot_container_gold"
+    },
+    "facing=east": {
+      "model": "piseks_spidk_ii_tweaks:block/loot_container_gold",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "piseks_spidk_ii_tweaks:block/loot_container_gold",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "piseks_spidk_ii_tweaks:block/loot_container_gold",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fissure_leading_outside",
+        "1": "fissure_leading_outside_side"
+      },
+      "name": "default"
+    }
+  }
+}

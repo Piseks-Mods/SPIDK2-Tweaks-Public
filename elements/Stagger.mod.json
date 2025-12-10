@@ -1,0 +1,26 @@
+{
+  "_fv": 34,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Stagger",
+    "icon": "stagger.png",
+    "color": {
+      "value": -265674,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "StaggerApplied"
+    },
+    "onActiveTick": {
+      "name": "StaggerTick"
+    },
+    "onExpired": {
+      "name": "StaggerExpired"
+    }
+  }
+}

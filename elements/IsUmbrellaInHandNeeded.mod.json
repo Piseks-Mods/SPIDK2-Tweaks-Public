@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Is Umbrella needed in player's hand?",
+    "description": "When disabled, player must hold umbrella in hand not to get Poison",
+    "category": "PLAYER",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "entity.creeper.primed": {
+    "sounds": [
+      "mob/creeper/primed"
+    ],
+    "subtitle": "subtitles.entity.creeper.primed"
+  }
+}

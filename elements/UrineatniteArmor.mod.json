@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "urineatnite_helmet",
+    "enableBody": true,
+    "textureBody": "urineatnite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "urineatnite_leggings",
+    "enableBoots": true,
+    "textureBoots": "urineatnite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "urineatnite_",
+    "helmetName": "Urineatnite Helmet",
+    "bodyName": "Urineatnite Chestplate",
+    "leggingsName": "Urineatnite Leggings",
+    "bootsName": "Urineatnite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 55,
+    "damageValueHelmet": 4,
+    "damageValueBody": 12,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 4,
+    "enchantability": 22,
+    "toughness": 4.5,
+    "knockbackResistance": 0.15,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:UrineatniteIngot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 9,
+  "cookingtime": 900,
+  "ingredient": {
+    "item": "piseks_spidk_ii_tweaks:compressed_netherite_blend"
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:compressed_netherite_block"
+  }
+}

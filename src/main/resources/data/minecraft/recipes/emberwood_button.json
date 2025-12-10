@@ -1,0 +1,13 @@
+{
+  "group": "wooden_button",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    }
+  ],
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:emberwood_button",
+    "count": 1
+  }
+}

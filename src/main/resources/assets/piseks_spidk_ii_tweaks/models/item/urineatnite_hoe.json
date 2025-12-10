@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "piseks_spidk_ii_tweaks:items/urineatnite_hoe"
+  }
+}

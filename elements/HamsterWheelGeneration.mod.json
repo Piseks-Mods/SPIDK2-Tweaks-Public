@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Hamster Wheel Energy Generation",
+    "description": "How many FE will Wheel Generate",
+    "category": "MISC",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 200
+  }
+}

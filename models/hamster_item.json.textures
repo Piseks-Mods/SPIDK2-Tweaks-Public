@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hamster_brown"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "0": "hamster_white"
+      },
+      "name": "white"
+    },
+    "ginger": {
+      "map": {
+        "0": "hamster_ginger"
+      },
+      "name": "ginger"
+    },
+    "yellow": {
+      "map": {
+        "0": "hamster_yellow"
+      },
+      "name": "yellow"
+    }
+  }
+}

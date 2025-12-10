@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "tconstruct:molten_refined_glowstone",
+      "amount": 288
+    },
+    {
+      "tag": "tconstruct:molten_glass",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "fluid": "piseks_spidk_ii_tweaks:molten_glow_glass",
+    "amount": 805
+  },
+  "temperature": 450
+}

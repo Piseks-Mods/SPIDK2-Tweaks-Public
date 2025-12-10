@@ -1,0 +1,15 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/advanced_crafting_table",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/advanced_crafting_table",
+    "particle": "piseks_spidk_ii_tweaks:blocks/spruce_planks",
+    "hammer": "piseks_spidk_ii_tweaks:blocks/advanced_crafting_table_hammer",
+    "s_oak_log": "piseks_spidk_ii_tweaks:blocks/stripped_oak_log",
+    "spruce_planks": "piseks_spidk_ii_tweaks:blocks/spruce_planks",
+    "anvil": "piseks_spidk_ii_tweaks:blocks/anvil",
+    "s_spruce_log": "piseks_spidk_ii_tweaks:blocks/stripped_spruce_log",
+    "book": "piseks_spidk_ii_tweaks:blocks/advanced_crafting_table_book",
+    "papers": "piseks_spidk_ii_tweaks:blocks/advanced_crafting_table_papers",
+    "spruce_log": "piseks_spidk_ii_tweaks:blocks/spruce_log"
+  }
+}

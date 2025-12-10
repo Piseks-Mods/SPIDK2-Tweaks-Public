@@ -1,0 +1,95 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="piseks_spidk_ii_tweaks"
+version="2.5.1.1"
+displayName="Pisek's SPIDK 2 Tweaks"
+credits="Textures by: Pisek, CraftBench AI, lucixnkaa; Models by: Pisek, lucixnkaa"
+displayURL="https://github.com/Piseks-Mods/SPIDK2-Tweaks-Public"
+logoFile="logo.png"
+authors="Písek Pískovec"
+
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="tconstruct"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="piseks_enderite"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="botania"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="piseks_utilities_ii"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="mekanism"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="bloodmagic"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="extrastorage"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="quark"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="refinedstorage"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="nethers_delight"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.piseks_spidk_ii_tweaks]]
+    modId="curio"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

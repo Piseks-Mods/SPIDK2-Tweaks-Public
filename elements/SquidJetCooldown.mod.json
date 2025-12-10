@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Cooldown of Squid Jet",
+    "description": "How many seconds will player need to wait till next use",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 30
+  }
+}

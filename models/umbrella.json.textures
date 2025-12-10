@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "spruce_planks": "spruce_planks",
+        "gray_wool": "gray_wool",
+        "anvil": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

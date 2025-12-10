@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Healing Bed healing cost",
+    "description": "How many hunger points will it take to heal.",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 6
+  }
+}

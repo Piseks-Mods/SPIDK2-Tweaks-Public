@@ -1,0 +1,35 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "walpurgisnacht",
+    "customModelName": "walpurgisnacht:default",
+    "name": "§dPride",
+    "specialInfo": [
+      "§oThree coins sword",
+      "[ I ] Inflict 3 Rupture",
+      "§rSubject to change: Coin Status Effect and Coin count"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.6,
+    "enchantability": 14,
+    "damageVsEntity": 9.4,
+    "usageCount": 346,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.GILDED_BLACKSTONE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

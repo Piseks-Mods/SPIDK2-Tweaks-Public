@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pride_hilt",
+        "1": "pride_blade"
+      },
+      "name": "default"
+    }
+  }
+}

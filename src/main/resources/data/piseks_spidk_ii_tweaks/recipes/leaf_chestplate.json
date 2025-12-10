@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "leaves"
+    },
+    "2": {
+      "tag": "leaves"
+    },
+    "3": {
+      "tag": "leaves"
+    },
+    "4": {
+      "tag": "leaves"
+    },
+    "5": {
+      "tag": "leaves"
+    },
+    "6": {
+      "tag": "leaves"
+    },
+    "7": {
+      "tag": "leaves"
+    },
+    "8": {
+      "tag": "leaves"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:leaf_chestplate",
+    "count": 1
+  }
+}

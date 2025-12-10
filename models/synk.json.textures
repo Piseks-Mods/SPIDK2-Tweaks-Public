@@ -1,0 +1,37 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "name": "default"
+    },
+    "water": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "terracotta",
+        "2": "cauldron_inner",
+        "3": "cauldron_top",
+        "4": "cobblestone",
+        "5": "water_still"
+      },
+      "name": "water"
+    },
+    "lava": {
+      "map": {
+        "0": "stripped_warped_stem",
+        "1": "red_nether_bricks",
+        "2": "cauldron_inner",
+        "3": "netherite_block",
+        "4": "dark_stone",
+        "5": "lava_still"
+      },
+      "name": "lava"
+    }
+  }
+}

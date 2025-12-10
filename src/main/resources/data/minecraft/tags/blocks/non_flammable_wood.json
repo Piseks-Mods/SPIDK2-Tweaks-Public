@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "piseks_spidk_ii_tweaks:emberwood_stem",
+    "piseks_spidk_ii_tweaks:emberwood_planks",
+    "piseks_spidk_ii_tweaks:emberwood_trapdoor",
+    "piseks_spidk_ii_tweaks:emberwood_stairs",
+    "piseks_spidk_ii_tweaks:emberwood_slab",
+    "piseks_spidk_ii_tweaks:emberwood_fence",
+    "piseks_spidk_ii_tweaks:emberwood_fence_gate",
+    "piseks_spidk_ii_tweaks:emberwood_pressure_plate",
+    "piseks_spidk_ii_tweaks:emberwood_button",
+    "piseks_spidk_ii_tweaks:emberwood_hyphae",
+    "piseks_spidk_ii_tweaks:emberwood_door",
+    "piseks_spidk_ii_tweaks:stripped_emberwood_stem",
+    "piseks_spidk_ii_tweaks:stripped_emberwood_hyphae"
+  ]
+}

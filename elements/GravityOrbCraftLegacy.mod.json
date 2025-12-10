@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "gravity_orb",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:SquidJet"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "Items.GHAST_TEAR"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GravityOrb"
+    },
+    "name": "gravity_orb_legacy",
+    "namespace": "mod"
+  }
+}

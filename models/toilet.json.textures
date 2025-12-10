@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "white_terracotta": "white_terracotta",
+        "anvil": "anvil",
+        "missing": "",
+        "quartz_block_side": "quartz_block_side",
+        "water": "water_still",
+        "stone": "stone"
+      },
+      "name": "default"
+    }
+  }
+}

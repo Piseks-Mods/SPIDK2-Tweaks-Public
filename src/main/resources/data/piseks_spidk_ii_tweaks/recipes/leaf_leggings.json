@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "tag": "leaves"
+    },
+    "1": {
+      "tag": "leaves"
+    },
+    "2": {
+      "tag": "leaves"
+    },
+    "3": {
+      "tag": "leaves"
+    },
+    "5": {
+      "tag": "leaves"
+    },
+    "6": {
+      "tag": "leaves"
+    },
+    "8": {
+      "tag": "leaves"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:leaf_leggings",
+    "count": 1
+  }
+}

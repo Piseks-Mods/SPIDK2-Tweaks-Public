@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "piseks_spidk_ii_tweaks:blocks/emberwood_sapling",
+    "particle": "piseks_spidk_ii_tweaks:blocks/emberwood_sapling"
+  }
+}

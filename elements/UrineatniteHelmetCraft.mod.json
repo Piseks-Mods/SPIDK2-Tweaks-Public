@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "urineatnite_armor",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.DIAMOND_HELMET"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:UrineatniteIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:UrineatniteArmor.helmet"
+    },
+    "name": "urineatnite_helmet",
+    "namespace": "mod"
+  }
+}

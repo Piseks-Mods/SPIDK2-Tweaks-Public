@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "piseks_spidk_ii_tweaks:urineatnite_ingot"
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:urineatnite_helmet"
+  }
+}

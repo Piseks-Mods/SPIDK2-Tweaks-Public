@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "piseks_spidk_ii_tweaks:pure_osmium_ore",
+    "piseks_spidk_ii_tweaks:pure_diamond_ore",
+    "piseks_spidk_ii_tweaks:pure_gold_ore",
+    "piseks_spidk_ii_tweaks:pure_emerald_ore",
+    "piseks_spidk_ii_tweaks:pure_iron_ore",
+    "piseks_spidk_ii_tweaks:pure_nether_quartz_ore",
+    "piseks_spidk_ii_tweaks:pure_copper_ore",
+    "piseks_utilities_ii:copper_ore",
+    "piseks_utilities_ii:tin_ore",
+    "piseks_utilities_ii:titanium_ore",
+    "piseks_enderite:alien_stone"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/compressed_netherite_block",
+    "particle": "piseks_spidk_ii_tweaks:blocks/compressed_netherite_block"
+  }
+}

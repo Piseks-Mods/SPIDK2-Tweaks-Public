@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Healing Bed Power",
+    "description": "How many HP wil the bed restore",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 15
+  }
+}

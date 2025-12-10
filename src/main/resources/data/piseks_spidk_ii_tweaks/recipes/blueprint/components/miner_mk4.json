@@ -1,0 +1,39 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "count": 3,
+      "base_ingredient": {
+        "item": "piseks_spidk_ii_tweaks:miner_mk_1"
+      }
+    },
+    {
+      "count": 50,
+      "base_ingredient": {
+        "tag": "forge:rods/steel"
+      }
+    },
+    {
+      "count": 5,
+      "base_ingredient": {
+        "item": "mekanism:ultimate_control_circuit"
+      }
+    },
+    {
+      "count": 10,
+      "base_ingredient": {
+        "item": "mekanism:sps_casing"
+      }
+    },
+    {
+      "count": 3,
+      "base_ingredient": {
+        "item": "piseks_spidk_ii_tweaks:hamster_wheel"
+      }
+    }
+  ],
+  "category": "components",
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:miner_mk_4"
+  }
+}

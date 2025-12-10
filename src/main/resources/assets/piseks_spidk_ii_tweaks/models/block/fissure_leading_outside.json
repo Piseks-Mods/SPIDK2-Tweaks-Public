@@ -1,0 +1,9 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/fissure_leading_outside",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/fissure_leading_outside",
+    "particle": "piseks_spidk_ii_tweaks:blocks/fissure_leading_outside",
+    "0": "piseks_spidk_ii_tweaks:blocks/fissure_leading_outside",
+    "1": "piseks_spidk_ii_tweaks:blocks/fissure_leading_outside_side"
+  }
+}

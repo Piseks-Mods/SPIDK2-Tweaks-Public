@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:synk"
+    },
+    "1": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "3": {
+      "item": "minecraft:quartz"
+    },
+    "4": {
+      "item": "minecraft:cauldron"
+    },
+    "5": {
+      "item": "minecraft:quartz"
+    },
+    "6": {
+      "item": "minecraft:quartz"
+    },
+    "7": {
+      "item": "minecraft:quartz"
+    },
+    "8": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:toilet",
+    "count": 1
+  }
+}

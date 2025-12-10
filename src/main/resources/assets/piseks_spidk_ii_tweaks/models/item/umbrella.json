@@ -1,0 +1,9 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/umbrella",
+  "textures": {
+    "spruce_planks": "piseks_spidk_ii_tweaks:blocks/spruce_planks",
+    "gray_wool": "piseks_spidk_ii_tweaks:blocks/gray_wool",
+    "anvil": "piseks_spidk_ii_tweaks:blocks/anvil",
+    "particle": "piseks_spidk_ii_tweaks:items/umbrella"
+  }
+}

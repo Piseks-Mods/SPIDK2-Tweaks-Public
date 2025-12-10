@@ -1,0 +1,30 @@
+{
+  "group": "ring_of_fortune",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:singularity_wishpower"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:ring_of_fortune",
+    "count": 1
+  }
+}

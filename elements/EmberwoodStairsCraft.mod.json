@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmberwoodStairs"
+    },
+    "name": "emberwood_stairs",
+    "namespace": "minecraft"
+  }
+}

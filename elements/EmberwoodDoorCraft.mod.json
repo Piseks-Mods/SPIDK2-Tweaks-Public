@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": "CUSTOM:EmberwoodPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmberwoodDoor"
+    },
+    "name": "emberwood_door",
+    "namespace": "minecraft"
+  }
+}

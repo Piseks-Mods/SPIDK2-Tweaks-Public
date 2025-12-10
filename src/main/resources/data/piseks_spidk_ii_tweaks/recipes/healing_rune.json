@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "piseks_spidk_ii_tweaks:singularity_helapoiesis"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ],
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:healing_rune",
+    "count": 1
+  }
+}

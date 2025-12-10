@@ -1,0 +1,22 @@
+{
+  "group": "wooden_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "1": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    },
+    "2": {
+      "item": "piseks_spidk_ii_tweaks:emberwood_planks"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:emberwood_slab",
+    "count": 6
+  }
+}

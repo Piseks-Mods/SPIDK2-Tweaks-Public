@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "logs"
+    },
+    "2": {
+      "tag": "logs"
+    },
+    "3": {
+      "tag": "logs"
+    },
+    "5": {
+      "tag": "logs"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:wooden_boots",
+    "count": 1
+  }
+}

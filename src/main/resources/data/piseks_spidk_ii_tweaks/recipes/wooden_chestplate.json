@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "logs"
+    },
+    "2": {
+      "tag": "logs"
+    },
+    "3": {
+      "tag": "logs"
+    },
+    "4": {
+      "tag": "logs"
+    },
+    "5": {
+      "tag": "logs"
+    },
+    "6": {
+      "tag": "logs"
+    },
+    "7": {
+      "tag": "logs"
+    },
+    "8": {
+      "tag": "logs"
+    }
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:wooden_chestplate",
+    "count": 1
+  }
+}

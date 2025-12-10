@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "piseks_utilities_ii:copper_block",
+    "piseks_utilities_ii:tin_block",
+    "piseks_utilities_ii:titanium_block",
+    "piseks_enderite:enderite_block"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gluttony",
+    "customModelName": "Normal",
+    "name": "Gluttony",
+    "specialInfo": [
+      "§oThree coins sword",
+      "§r§9[ On Use ] §rDeal +10 % damage for every 3 Rupture on target",
+      "§6[ Clash Win ]§r Inflict +2 Rupture Count",
+      "§a[ II - On head ]§r Inflict 3 Rupture"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 7.0,
+    "attackSpeed": 1.3,
+    "enchantability": 5,
+    "damageVsEntity": 5.8,
+    "usageCount": 208,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.ROTTEN_FLESH"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GluttonyReplenishHunger"
+    }
+  }
+}

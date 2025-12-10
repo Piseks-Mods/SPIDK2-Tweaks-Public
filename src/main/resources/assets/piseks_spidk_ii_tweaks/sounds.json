@@ -1,0 +1,113 @@
+{
+  "eff_galvanized_sheet_metal": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:zinkovanej_plech",
+        "stream": false
+      }
+    ]
+  },
+  "mob_owl_ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.mob_owl_ambient",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:owl1",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:owl2",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:owl3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hamster.living": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.hamster.living",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_a",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_b",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_c",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_d",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_e",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_f",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_g",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_living_h",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hamster.death": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.hamster.death",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hamster.hurt": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.hamster.hurt",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_hurt_a",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_hurt_b",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_hurt_c",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_hurt_d",
+        "stream": false
+      },
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_hurt_e",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hamster.step": {
+    "category": "ambient",
+    "subtitle": "subtitles.entity.hamster.step",
+    "sounds": [
+      {
+        "name": "piseks_spidk_ii_tweaks:hamster_step",
+        "stream": false
+      }
+    ]
+  }
+}

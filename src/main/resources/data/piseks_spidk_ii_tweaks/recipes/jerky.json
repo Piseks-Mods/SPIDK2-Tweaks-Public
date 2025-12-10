@@ -1,0 +1,12 @@
+{
+  "group": "jerky",
+  "type": "minecraft:campfire_cooking",
+  "experience": 0.35,
+  "cookingtime": 800,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "piseks_spidk_ii_tweaks:jerky"
+  }
+}

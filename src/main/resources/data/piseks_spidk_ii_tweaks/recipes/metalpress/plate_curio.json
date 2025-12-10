@@ -1,0 +1,13 @@
+{
+	"type":"immersiveengineering:metal_press",
+	"mold": {
+		"item":"immersiveengineering:mold_unpacking"
+	},
+	"result": {
+		"item":"piseks_spidk_ii_tweaks:punch_card"
+	},
+	"input": {
+		"item":"piseks_spidk_ii_tweaks:enchanted_paper"
+	},
+	"energy":4800
+}

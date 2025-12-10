@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:EmberwoodStem"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "emberwood_stem_valid_generation",
+    "namespace": "mod"
+  }
+}

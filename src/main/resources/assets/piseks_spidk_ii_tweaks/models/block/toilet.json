@@ -1,0 +1,13 @@
+{
+  "parent": "piseks_spidk_ii_tweaks:custom/toilet",
+  "textures": {
+    "all": "piseks_spidk_ii_tweaks:blocks/computer_bottom",
+    "particle": "piseks_spidk_ii_tweaks:blocks/computer_bottom",
+    "white_terracotta": "piseks_spidk_ii_tweaks:blocks/white_terracotta",
+    "anvil": "piseks_spidk_ii_tweaks:blocks/anvil",
+    "missing": "piseks_spidk_ii_tweaks:blocks/",
+    "quartz_block_side": "piseks_spidk_ii_tweaks:blocks/quartz_block_side",
+    "water": "piseks_spidk_ii_tweaks:blocks/water_still",
+    "stone": "piseks_spidk_ii_tweaks:blocks/stone"
+  }
+}

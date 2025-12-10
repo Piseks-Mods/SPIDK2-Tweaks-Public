@@ -1,0 +1,24 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "Blocks.STRIPPED_WARPED_STEM"
+      },
+      {
+        "value": "Blocks.STRIPPED_CRIMSON_STEM"
+      },
+      {
+        "value": "CUSTOM:StrippedEmberwoodStem"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "stems/stripped",
+    "namespace": "mod"
+  }
+}

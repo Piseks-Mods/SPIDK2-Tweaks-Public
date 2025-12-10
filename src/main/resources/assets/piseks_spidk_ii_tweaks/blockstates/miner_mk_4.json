@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "piseks_spidk_ii_tweaks:block/miner_mk_4"
+    },
+    "facing=east": {
+      "model": "piseks_spidk_ii_tweaks:block/miner_mk_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "piseks_spidk_ii_tweaks:block/miner_mk_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "piseks_spidk_ii_tweaks:block/miner_mk_4",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "botania:block/dreamwood_planks",
+    "up": "botania:block/dreamwood_planks",
+    "north": "piseks_spidk_ii_tweaks:blocks/dreamwood_bookshelf",
+    "east": "piseks_spidk_ii_tweaks:blocks/dreamwood_bookshelf",
+    "south": "piseks_spidk_ii_tweaks:blocks/dreamwood_bookshelf",
+    "west": "piseks_spidk_ii_tweaks:blocks/dreamwood_bookshelf",
+    "particle": "botania:block/dreamwood_planks"
+  }
+}

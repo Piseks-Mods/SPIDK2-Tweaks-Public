@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "piseks_spidk_ii_tweaks:block/hamster_wheel"
+    },
+    "facing=east": {
+      "model": "piseks_spidk_ii_tweaks:block/hamster_wheel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "piseks_spidk_ii_tweaks:block/hamster_wheel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "piseks_spidk_ii_tweaks:block/hamster_wheel",
+      "y": 270
+    }
+  }
+}
