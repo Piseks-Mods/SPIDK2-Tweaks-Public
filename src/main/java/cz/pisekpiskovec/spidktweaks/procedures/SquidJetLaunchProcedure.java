@@ -40,7 +40,7 @@ public class SquidJetLaunchProcedure {
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).getCooldownTracker().setCooldown(itemstack.getItem(),
 					(int) (world.getWorldInfo().getGameRulesInstance().getInt(SquidJetCooldownGameRule.gamerule) / 20));
-		if (Math.random() < 100 / (EnchantmentHelper.getEnchantmentLevel(Enchantments.UNBREAKING, itemstack) + 1)) {
+		if (Math.random() < (100 / (EnchantmentHelper.getEnchantmentLevel(Enchantments.UNBREAKING, itemstack) + 1)) / 100) {
 			{
 				ItemStack _ist = itemstack;
 				if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
